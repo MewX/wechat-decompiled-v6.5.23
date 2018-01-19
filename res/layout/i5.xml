@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:id="@id/aao" android:paddingLeft="@dimen/gb" android:paddingRight="@dimen/gb" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_gravity="center" android:paddingBottom="@dimen/i1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <include android:id="@id/ab7" layout="@layout/chatting_item_dyeing_template_old" />
+        <include android:id="@id/ab8" layout="@layout/chatting_item_dyeing_template_new" />
+    </FrameLayout>
+    <RelativeLayout android:paddingBottom="@dimen/gb" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ImageView android:id="@id/ab9" android:background="@drawable/mn" android:visibility="gone" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/br" android:layout_marginBottom="@dimen/gb" />
+    </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/ap1" android:background="#ff000000" android:layout_width="fill_parent" android:layout_height="fill_parent" style="@style/NavPage"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.tencent.mm.ui.tools.CropImageView android:gravity="center" android:layout_gravity="center" android:id="@id/ap2" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:cacheColorHint="#00000000" android:scaleType="matrix" />
+    <View android:gravity="center" android:layout_gravity="center" android:id="@id/aoy" android:layout_width="312.0dip" android:layout_height="312.0dip" />
+    <ImageView android:gravity="center" android:layout_gravity="center" android:id="@id/aoz" android:background="@drawable/a13" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerInside" />
+    <LinearLayout android:orientation="vertical" android:id="@id/ap3" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <View android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0" />
+        <LinearLayout android:orientation="horizontal" android:id="@id/ap4" android:paddingLeft="8.0dip" android:paddingBottom="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <Button android:id="@id/ap5" style="@style/RotateButton" />
+            <View android:layout_width="8.0dip" style="@style/MMSplit" />
+            <Button android:id="@id/ap6" style="@style/ZoomOutButton" />
+            <Button android:id="@id/ap7" style="@style/ZoomInButton" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/ap8" android:background="@drawable/ak5" android:padding="@dimen/i1" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <Button android:layout_gravity="center_vertical" android:id="@id/ap9" android:minWidth="@dimen/h3" android:text="@string/an3" style="@style/MMSolidGreenSmallButton" />
+        </LinearLayout>
+    </LinearLayout>
+    <com.tencent.mm.ui.tools.FilterImageView android:id="@id/ap_" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</FrameLayout>

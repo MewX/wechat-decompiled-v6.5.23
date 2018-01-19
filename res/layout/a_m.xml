@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:background="@color/l3" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:mall="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:paddingLeft="@dimen/gb" android:paddingRight="@dimen/gb" android:paddingBottom="5.0dip" style="@style/NavPage">
+        <FrameLayout android:id="@id/cmt" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="52.0dip">
+            <ImageView android:id="@id/cmu" android:layout_width="fill_parent" android:layout_height="52.0dip" android:scaleType="fitXY" />
+            <ImageView android:layout_gravity="center|right" android:id="@id/cmv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/gb" android:src="@drawable/a52" />
+        </FrameLayout>
+        <com.tencent.mm.plugin.recharge.ui.MallEditText android:id="@id/cmw" android:background="@drawable/fk" android:layout_width="fill_parent" android:layout_height="45.0dip" android:layout_marginTop="15.0dip" android:imeOptions="actionNext" mall:mallHint="@string/bxq" mall:mallEditType="dv" />
+        <TextView android:layout_gravity="center|left" android:id="@id/cgj" android:layout_marginLeft="8.0dip" android:layout_marginTop="15.0dip" android:layout_marginBottom="8.0dip" style="@style/MMFontTipInList" />
+        <LinearLayout android:orientation="horizontal" android:id="@id/cmx" android:background="@drawable/jv" android:layout_width="fill_parent" android:layout_height="50.0dip">
+            <TextView android:textSize="@dimen/h7" android:textColor="@color/bi" android:gravity="center|left" android:id="@id/cmy" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:layout_marginRight="@dimen/br" android:minWidth="80.0dip" android:editable="false" android:imeOptions="actionNext" />
+            <TextView android:gravity="center|right" android:id="@id/cmz" android:paddingRight="@dimen/gb" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginRight="6.0dip" android:layout_weight="1.0" style="@style/MMFontTipInList" />
+        </LinearLayout>
+        <TextView android:textColor="@color/mo" android:id="@id/cn0" android:background="@null" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:layout_marginBottom="8.0dip" style="@style/RechargeTips" />
+        <Button android:id="@id/ajh" android:layout_width="fill_parent" android:layout_marginLeft="0.0dip" android:layout_marginRight="0.0dip" android:text="@string/bxi" style="@style/MMSolidGreenLargeButton" />
+        <LinearLayout android:gravity="right" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textColor="@color/j0" android:id="@id/cn1" android:paddingTop="30.0dip" android:layout_width="wrap_content" android:text="@string/bxs" style="@style/MMTextView" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

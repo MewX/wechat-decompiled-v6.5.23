@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:id="@id/b2_" android:background="@drawable/aae" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageButton android:id="@id/b2a" android:background="@null" android:padding="@dimen/i1" android:layout_width="0.0dip" android:layout_height="wrap_content" android:src="@drawable/g3" android:layout_weight="1.0" />
+    <ImageButton android:id="@id/b2b" android:background="@null" android:padding="@dimen/i1" android:layout_width="0.0dip" android:layout_height="wrap_content" android:src="@drawable/g1" android:layout_weight="1.0" />
+    <ImageButton android:id="@id/b2c" android:background="@null" android:padding="@dimen/i1" android:layout_width="0.0dip" android:layout_height="wrap_content" android:src="@drawable/g2" android:layout_weight="1.0" />
+</LinearLayout>

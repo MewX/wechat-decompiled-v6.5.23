@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout style="@style/NavPage"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:scrollbars="none" style="@style/MMScroll">
+        <LinearLayout style="@style/MMBody">
+            <TextView android:text="@string/zo" style="@style/MMLineLabel" />
+            <View style="@style/MMLabelSplit" />
+            <TextView android:text="@string/zp" style="@style/MMLineLabel" />
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/wn" android:background="@drawable/f0" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="-5.0dip" android:layout_marginTop="5.0dip" android:layout_marginRight="-5.0dip" android:minHeight="@dimen/i0">
+                <TextView android:id="@id/wo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="6.0dip" android:layout_marginTop="5.0dip" android:layout_marginRight="10.0dip" android:layout_marginBottom="5.0dip" android:text="@string/zm" android:singleLine="true" android:layout_weight="1.0" style="@style/MMFontPreferenceLarge" />
+            </LinearLayout>
+            <Button android:layout_gravity="center_horizontal" android:id="@id/wp" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="5.0dip" android:text="@string/zs" style="@style/MMSolidGreenLargeButton" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

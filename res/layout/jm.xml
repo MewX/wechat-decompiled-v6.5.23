@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_below="@id/a2" style="@style/ChattingUIContent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" />
+    <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <TextView android:layout_gravity="right" android:id="@id/j0" android:visibility="gone" style="@style/ChattingUISenderText" />
+        <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <ImageView android:layout_gravity="center_vertical" android:id="@id/af0" style="@style/ChattingUIState" />
+            <ProgressBar android:layout_gravity="center_vertical" android:id="@id/afr" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/smallCustomProgressBar" />
+            <ImageView android:layout_gravity="center_vertical" android:id="@id/afs" android:paddingRight="@dimen/i1" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@raw/chatting_status_tick" />
+            <com.tencent.mm.ui.widget.MMTextView android:id="@id/j1" android:background="@drawable/eg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="@dimen/ne" android:minHeight="@dimen/cf" style="@style/ChattingUIText" />
+        </LinearLayout>
+        <com.tencent.mm.ui.chatting.ChattingTranslateView android:id="@id/ac9" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/br" />
+    </LinearLayout>
+    <include layout="@layout/chatting_item_avatar_to" />
+</LinearLayout>

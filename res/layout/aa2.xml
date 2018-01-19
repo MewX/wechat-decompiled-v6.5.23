@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:background="@color/l3" style="@style/MMScroll"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:paddingLeft="@dimen/h6" android:paddingTop="@dimen/h6" android:paddingRight="@dimen/h6" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/gf" android:layout_marginBottom="@dimen/gb">
+            <TextView android:textSize="@dimen/if" android:gravity="center" android:id="@id/cnp" android:background="@drawable/ky" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="1" android:layout_centerVertical="true" />
+            <TextView android:textSize="@dimen/h7" android:id="@id/cnq" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/h8" android:layout_toRightOf="@id/cnp" />
+        </RelativeLayout>
+        <TextView android:textSize="@dimen/h7" android:id="@id/cnr" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/gb" android:layout_marginTop="@dimen/c0" android:layout_marginBottom="@dimen/gb" />
+        <TextView android:textSize="@dimen/h7" android:id="@id/cns" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/gb" android:layout_marginTop="@dimen/ge" android:layout_marginBottom="@dimen/gf" />
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/ge" android:layout_marginBottom="@dimen/gb">
+            <TextView android:textSize="@dimen/if" android:gravity="center" android:id="@id/cnt" android:background="@drawable/ky" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="2" android:layout_centerVertical="true" />
+            <TextView android:textSize="@dimen/h7" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/h8" android:text="@string/cfs" android:layout_toRightOf="@id/cnt" />
+        </RelativeLayout>
+        <Button android:id="@id/cnu" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/ge" android:layout_marginBottom="@dimen/ge" android:text="@string/cft" style="@style/MMSolidGreenLargeButton" />
+    </LinearLayout>
+</ScrollView>

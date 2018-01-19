@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="@drawable/e9" android:paddingTop="@dimen/i1" android:paddingBottom="@dimen/i1" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/h7" android:textColor="@color/bi" android:id="@id/fy" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/eaw" android:layout_weight="1.0" />
+    <RelativeLayout android:id="@id/n3" android:layout_width="50.0dip" android:layout_height="50.0dip" android:layout_marginLeft="@dimen/h6">
+        <ImageView android:id="@id/n4" android:background="@color/iw" android:layout_width="50.0dip" android:layout_height="50.0dip" android:scaleType="centerCrop" />
+        <ProgressBar android:layout_gravity="center" android:id="@id/ab5" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" style="@style/smallCustomProgressBar" />
+        <View android:gravity="center_vertical" android:id="@id/ab6" android:background="@raw/msg_state_fail_resend" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+        <ImageView android:id="@id/cle" android:paddingRight="@dimen/br" android:paddingBottom="@dimen/br" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/a50" android:layout_alignRight="@id/n4" android:layout_alignBottom="@id/n4" />
+    </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/s8" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="20.0dip" android:layout_marginRight="20.0dip">
+        <ImageView android:id="@id/agh" android:layout_width="12.0dip" android:layout_height="12.0dip" android:layout_marginTop="20.0dip" android:src="@drawable/afa" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" />
+        <ImageView android:id="@id/dii" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="25.0dip" android:src="@drawable/afb" android:layout_centerHorizontal="true" />
+        <TextView android:textSize="17.0dip" android:textColor="#ff484848" android:id="@id/dij" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:text="" android:layout_below="@id/dii" android:layout_centerHorizontal="true" />
+        <View android:id="@id/dik" android:background="#ffd8d8d8" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginTop="15.0dip" android:layout_below="@id/dij" />
+        <TextView android:textSize="16.0dip" android:textColor="#ff484848" android:id="@id/dil" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" android:layout_marginBottom="15.0dip" android:text="" android:layout_below="@id/dik" android:layout_centerHorizontal="true" />
+        <LinearLayout android:orientation="vertical" android:id="@id/dim" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/dil" />
+        <Button android:textSize="17.0dip" android:id="@id/din" android:layout_width="fill_parent" android:layout_height="44.0dip" android:layout_marginTop="25.0dip" android:text="" android:layout_below="@id/dim" android:layout_centerHorizontal="true" style="@style/MMSolidGreenLargeButton" />
+        <TextView android:textSize="14.0dip" android:textColor="#ff888888" android:gravity="center" android:id="@id/dio" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="25.0dip" android:layout_marginBottom="11.0dip" android:text="" android:layout_below="@id/din" android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+</LinearLayout>

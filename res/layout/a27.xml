@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/ji" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="@dimen/gu" android:minHeight="152.0dip" style="@style/PopupBgWithoutShadow">
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/c2v" android:paddingTop="@dimen/d7" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+            <LinearLayout android:orientation="vertical" android:id="@id/c2w" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/d7" android:layout_marginRight="@dimen/d7">
+                <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/gb">
+                    <TextView android:textSize="@dimen/db" android:textColor="@color/lb" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/c2x" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="title" android:includeFontPadding="false" />
+                </LinearLayout>
+                <ViewStub android:id="@id/c2y" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/gb" />
+            </LinearLayout>
+            <FrameLayout android:id="@id/c2z" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxHeight="@dimen/da" />
+            <ScrollView android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+                <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                    <TextView android:textSize="@dimen/i7" android:textColor="@color/e8" android:id="@id/c30" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/d7" android:layout_marginRight="@dimen/d7" android:layout_marginBottom="@dimen/gk" android:includeFontPadding="false" />
+                    <LinearLayout android:orientation="vertical" android:id="@id/be0" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/d7" android:layout_marginRight="@dimen/d7">
+                        <TextView android:textSize="@dimen/d_" android:textColor="@color/ev" android:ellipsize="end" android:id="@id/c31" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/br" android:text="msg_title" />
+                        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                            <com.tencent.mm.pluginsdk.ui.applet.CdnImageView android:id="@id/akx" android:visibility="gone" android:layout_width="@dimen/sr" android:layout_height="@dimen/sr" android:layout_marginRight="@dimen/i1" android:scaleType="centerCrop" />
+                            <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                                <TextView android:textSize="@dimen/d9" android:textColor="@color/e8" android:ellipsize="end" android:id="@id/aky" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+                                <TextView android:textSize="@dimen/d9" android:textColor="@color/e8" android:ellipsize="end" android:id="@id/akz" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="msg_content" android:maxLines="2" />
+                            </LinearLayout>
+                        </LinearLayout>
+                        <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:id="@id/c32" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+                    </LinearLayout>
+                    <TextView android:textSize="@dimen/d_" android:textColor="@color/ev" android:id="@id/al5" android:visibility="gone" android:layout_marginLeft="@dimen/d7" android:layout_marginRight="@dimen/d7" android:text="source" style="@style/ConfirmDialogSource" />
+                    <com.tencent.mm.ui.widget.MMEditText android:id="@id/al2" android:visibility="gone" android:layout_marginLeft="@dimen/d7" android:layout_marginRight="@dimen/d7" style="@style/ConfirmDialogEditText" />
+                    <CheckBox android:gravity="left" android:id="@id/c33" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/d7" android:layout_marginTop="@dimen/br" android:layout_marginRight="@dimen/d7" style="@style/MMTextCheckBox" />
+                </LinearLayout>
+            </ScrollView>
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:id="@id/c34" android:paddingLeft="@dimen/gj" android:paddingTop="@dimen/gb" android:paddingRight="@dimen/gb" android:paddingBottom="@dimen/gb" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:gravity="right" android:orientation="horizontal" android:id="@id/c35" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <Button android:textSize="@dimen/h7" android:textColor="@color/cp" android:id="@id/aks" android:background="@drawable/ag" android:visibility="gone" android:layout_width="wrap_content" android:minWidth="@dimen/cq" style="@style/MMSolidWhiteSmallButton" />
+                <Button android:textSize="@dimen/h7" android:textColor="@color/ht" android:id="@id/akt" android:background="@drawable/ag" android:visibility="gone" android:layout_width="wrap_content" android:minWidth="@dimen/cq" style="@style/MMSolidWhiteSmallButton" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

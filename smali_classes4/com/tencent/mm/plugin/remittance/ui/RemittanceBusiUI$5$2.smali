@@ -1,0 +1,70 @@
+.class final Lcom/tencent/mm/plugin/remittance/ui/RemittanceBusiUI$5$2;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements Landroid/content/DialogInterface$OnClickListener;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingMethod;
+    value = Lcom/tencent/mm/plugin/remittance/ui/RemittanceBusiUI$5;->onClick(Landroid/view/View;)V
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x0
+    name = null
+.end annotation
+
+
+# instance fields
+.field final synthetic oDj:Lcom/tencent/mm/plugin/remittance/ui/RemittanceBusiUI$5;
+
+
+# direct methods
+.method constructor <init>(Lcom/tencent/mm/plugin/remittance/ui/RemittanceBusiUI$5;)V
+    .locals 4
+
+    .prologue
+    const-wide v2, 0x1195b8000000L
+
+    const v0, 0x232b7
+
+    .line 246
+    iput-object p1, p0, Lcom/tencent/mm/plugin/remittance/ui/RemittanceBusiUI$5$2;->oDj:Lcom/tencent/mm/plugin/remittance/ui/RemittanceBusiUI$5;
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    invoke-static {v2, v3, v0}, Lcom/tencent/gmtrace/GMTrace;->i(JI)V
+
+    invoke-static {v2, v3, v0}, Lcom/tencent/gmtrace/GMTrace;->o(JI)V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final onClick(Landroid/content/DialogInterface;I)V
+    .locals 6
+
+    .prologue
+    const-wide v4, 0x1195c0000000L
+
+    const v1, 0x232b8
+
+    invoke-static {v4, v5, v1}, Lcom/tencent/gmtrace/GMTrace;->i(JI)V
+
+    .line 250
+    new-instance v0, Lcom/tencent/mm/plugin/remittance/ui/RemittanceBusiUI$5$2$1;
+
+    invoke-direct {v0, p0}, Lcom/tencent/mm/plugin/remittance/ui/RemittanceBusiUI$5$2$1;-><init>(Lcom/tencent/mm/plugin/remittance/ui/RemittanceBusiUI$5$2;)V
+
+    const-wide/16 v2, 0x1f4
+
+    invoke-static {v0, v2, v3}, Lcom/tencent/mm/sdk/platformtools/ag;->i(Ljava/lang/Runnable;J)V
+
+    .line 256
+    invoke-static {v4, v5, v1}, Lcom/tencent/gmtrace/GMTrace;->o(JI)V
+
+    return-void
+.end method

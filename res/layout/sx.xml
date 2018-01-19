@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/b5s" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:paddingLeft="@dimen/h6" android:paddingRight="@dimen/bq" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/cy" style="@style/MMListCatalog" />
+    <LinearLayout android:background="@drawable/n_" android:paddingLeft="@dimen/h6" android:paddingRight="@dimen/bq" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/b5t" android:background="@drawable/tv" android:layout_width="fill_parent" android:layout_height="@dimen/cv">
+            <com.tencent.mm.ui.base.MaskLayout android:id="@id/b5u" android:layout_width="@dimen/cs" android:layout_height="@dimen/cs">
+                <ImageView android:id="@id/in" android:layout_width="@dimen/cr" android:layout_height="@dimen/cr" android:src="@raw/default_avatar" android:layout_centerVertical="true" />
+            </com.tencent.mm.ui.base.MaskLayout>
+            <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="fill_parent">
+                <TextView android:id="@id/b5z" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="{nick}" android:singleLine="true" style="@style/MMFontTitleInList" />
+                <TextView android:id="@id/b60" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/i4" android:text="{lastmsg}" android:singleLine="true" style="@style/MMFontTipInList" />
+            </LinearLayout>
+            <View android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_weight="1.0" />
+            <TextView android:id="@id/b5v" android:visibility="visible" android:layout_marginRight="@dimen/i1" style="@style/UnreadCountTipsStyle" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

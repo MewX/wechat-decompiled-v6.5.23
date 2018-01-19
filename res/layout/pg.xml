@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:gravity="center_horizontal" android:background="#ffeeeeee" android:paddingTop="@dimen/gf" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageView android:id="@id/awx" android:layout_width="@dimen/gd" android:layout_height="@dimen/gd" android:src="@drawable/aad" android:scaleType="fitCenter" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" />
+        <TextView android:textSize="@dimen/h7" android:id="@id/awy" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/gf" android:text="@string/avj" android:layout_below="@id/awx" android:layout_centerHorizontal="true" />
+        <TextView android:textSize="@dimen/g2" android:textColor="@color/if" android:id="@id/awz" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/gb" android:text="" android:layout_below="@id/awy" android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+    <ScrollView android:id="@id/ax8" android:background="#ffeeeeee" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="@dimen/gj" android:fillViewport="true">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <com.tencent.mm.ui.base.MaxListView android:id="@id/ax9" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="wrap_content" android:listSelector="@null" android:cacheColorHint="#00000000" android:divider="@null" android:dividerHeight="@dimen/ij" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" />
+            <Button android:id="@id/ax_" android:layout_marginLeft="@dimen/h6" android:layout_marginTop="@dimen/gj" android:layout_marginRight="@dimen/h6" android:text="@string/avw" style="@style/MMSolidGreenLargeButton" />
+            <Button android:id="@id/axa" android:layout_marginLeft="@dimen/h6" android:layout_marginTop="@dimen/h6" android:layout_marginRight="@dimen/h6" android:text="@string/av6" style="@style/MMSolidWhiteLargeButton" />
+        </LinearLayout>
+    </ScrollView>
+</FrameLayout>

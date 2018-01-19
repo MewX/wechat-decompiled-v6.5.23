@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:focusable="true" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/ayp" android:layout_width="0.0dip" android:layout_height="0.0dip" />
+    <View android:id="@id/ayq" android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_marginTop="43.0dip" />
+    <LinearLayout android:orientation="vertical" android:id="@id/ayr" android:background="@color/f_" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/ayq">
+        <com.tencent.mm.plugin.exdevice.ui.ExdeviceStepChartView android:id="@id/ays" android:background="@drawable/fr" android:layout_width="fill_parent" android:layout_height="210.0dip" android:layout_marginLeft="@dimen/i1" android:layout_marginTop="60.5dip" android:layout_marginRight="@dimen/i1" />
+        <View android:layout_width="fill_parent" android:layout_height="30.0dip" />
+    </LinearLayout>
+    <ImageView android:id="@id/ayt" android:layout_width="@dimen/du" android:layout_height="@dimen/du" android:src="@drawable/fp" android:layout_below="@id/ayp" android:layout_centerHorizontal="true" />
+    <ImageView android:id="@id/ayu" android:layout_width="@dimen/dw" android:layout_height="@dimen/dw" android:src="@drawable/y2" android:layout_alignBottom="@id/ayt" android:layout_centerHorizontal="true" />
+    <TextView android:textSize="@dimen/h7" android:textColor="@color/bi" android:gravity="center" android:id="@id/ayv" android:visibility="gone" android:layout_marginTop="@dimen/i1" android:layout_below="@id/ayu" android:layout_alignLeft="@id/ayr" android:layout_alignRight="@id/ayr" style="@style/MMLine" />
+</RelativeLayout>

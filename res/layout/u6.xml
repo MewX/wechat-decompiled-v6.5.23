@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="@dimen/ho"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:id="@id/jy" android:baselineAligned="false" style="@style/MMSearchListNormalItem">
+        <ImageView android:layout_gravity="center_vertical" android:id="@id/jz" android:layout_width="@dimen/gz" android:layout_height="@dimen/gz" android:layout_marginRight="@dimen/hr" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:paddingLeft="@dimen/i4" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:id="@id/aoj" android:layout_width="0.0dip" android:maxWidth="140.0dip" android:layout_weight="1.0" style="@style/MMFontTitleInList" />
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:id="@id/b_c" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="3.0dip">
+                <TextView android:gravity="center|left" android:id="@id/aku" android:layout_width="fill_parent" android:singleLine="true" style="@style/MMFontTipInList" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

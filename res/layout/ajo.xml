@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_marginRight="5.0dip" android:minHeight="80.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:orientation="vertical" android:id="@id/df1" android:background="@drawable/aoi" android:layout_width="fill_parent" android:layout_height="80.0dip" android:minHeight="80.0dip">
+        <ImageView android:id="@id/df2" android:layout_width="217.0dip" android:layout_height="80.0dip" android:scaleType="fitXY" android:adjustViewBounds="true" android:layout_alignParentTop="true" android:layout_alignParentRight="true" />
+        <ImageView android:id="@id/df3" android:layout_width="37.0dip" android:layout_height="37.0dip" android:layout_marginLeft="15.0dip" android:layout_marginRight="6.0dip" android:src="@drawable/aoa" android:layout_centerVertical="true" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="37.0dip" android:layout_toRightOf="@id/df3" android:layout_alignTop="@id/df3">
+            <TextView android:textSize="@dimen/h7" android:textColor="#ffe2e2e2" android:id="@id/df4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/dtw" />
+            <TextView android:textSize="@dimen/i7" android:textColor="#ffe2e2e2" android:id="@id/dfb" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="1.0dip" android:text="@string/dtz" />
+        </LinearLayout>
+        <TextView android:textSize="@dimen/gg" android:textColor="@color/r5" android:id="@id/dff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="15.0dip" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+        <TextView android:textSize="@dimen/h7" android:textColor="@color/r8" android:id="@id/dfg" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="15.0dip" android:text="@string/du1" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    </RelativeLayout>
+</LinearLayout>

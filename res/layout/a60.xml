@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/bi" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.tencent.mm.plugin.music.ui.MusicViewPager android:id="@id/c89" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <CheckBox android:gravity="center" android:id="@id/c8_" android:background="@drawable/ko" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="45.0dip" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+    <ImageButton android:id="@id/ba4" android:background="@drawable/a7" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="8.0dip" android:onClick="onClickBack" />
+    <ImageButton android:id="@id/c8a" android:background="@drawable/jz" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="8.0dip" android:layout_alignParentRight="true" android:onClick="onClickSend" />
+</RelativeLayout>

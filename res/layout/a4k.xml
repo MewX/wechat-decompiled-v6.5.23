@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/c50" style="@style/MMPreferencePage"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/c51" android:background="#fffa9d3b" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@id/c52" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10.0dip" android:src="@raw/sns_plugin_tips_close_btn" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+        <TextView android:textSize="15.0dip" android:textColor="@color/r5" android:ellipsize="end" android:gravity="left" android:id="@id/c53" android:paddingLeft="@dimen/h6" android:paddingTop="@dimen/h6" android:paddingRight="4.0dip" android:paddingBottom="@dimen/h6" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_toLeftOf="@id/c52" />
+    </RelativeLayout>
+    <ListView android:id="@android:id/list" android:layout_weight="1.0" style="@style/MMList" />
+    <FrameLayout android:id="@id/c54" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</LinearLayout>

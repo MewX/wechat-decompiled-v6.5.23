@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/FavListItem"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:padding="@dimen/eg" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <include layout="@layout/fav_listitem_header" />
+            <RelativeLayout android:orientation="vertical" android:id="@id/b2o" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/ef">
+                <ImageView android:id="@id/b2p" android:background="@drawable/g_" android:layout_width="230.0dip" android:layout_height="138.0dip" android:src="@raw/fav_list_img_default" android:scaleType="centerCrop" android:contentDescription="@string/ek" />
+                <TextView android:textSize="12.0dip" android:id="@id/b2q" android:padding="3.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="{tips}" android:layout_alignRight="@id/b2p" android:layout_alignBottom="@id/b2p" />
+            </RelativeLayout>
+        </LinearLayout>
+        <include layout="@layout/fav_listitem_edit_view" />
+    </LinearLayout>
+    <View android:background="@color/g7" android:layout_width="fill_parent" android:layout_height="1.0px" />
+    <include layout="@layout/fav_listitem_footer" />
+</LinearLayout>

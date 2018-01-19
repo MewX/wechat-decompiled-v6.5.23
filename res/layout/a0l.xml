@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/bxm" android:background="@drawable/aew" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/gs">
+        <com.tencent.mm.plugin.sns.ui.MaskTextView android:textSize="@dimen/g2" android:textColor="@color/bi" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/bxn" android:paddingLeft="@dimen/i1" android:paddingTop="@dimen/gk" android:paddingRight="@dimen/i1" android:paddingBottom="@dimen/gk" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" android:drawableRight="@drawable/ag8" />
+        <View android:gravity="center" android:id="@id/bxo" android:background="#ffd6d6d6" android:layout_width="fill_parent" android:layout_height="1.0px" />
+        <LinearLayout android:gravity="left" android:orientation="horizontal" android:id="@id/bxp" android:paddingLeft="@dimen/i1" android:paddingTop="@dimen/br" android:paddingRight="3.0dip" android:paddingBottom="@dimen/gk" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </LinearLayout>
+</LinearLayout>

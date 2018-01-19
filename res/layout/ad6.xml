@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:background="@drawable/f0" android:paddingLeft="@dimen/h6" android:paddingTop="@dimen/i1" android:paddingRight="@dimen/h6" android:paddingBottom="@dimen/i1" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.tencent.mm.ui.MMImageView android:id="@id/cx9" android:background="@raw/default_avatar" android:layout_width="@dimen/bt" android:layout_height="@dimen/bt" android:scaleType="centerCrop" />
+    <LinearLayout android:gravity="left" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/i1" android:layout_marginRight="@dimen/i1" android:layout_marginBottom="@dimen/i6">
+        <TextView android:id="@id/cx_" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/h8" android:maxLines="2" android:singleLine="false" style="@style/MMFontPreferenceLarge" />
+        <TextView android:id="@id/cxa" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/h8" android:singleLine="true" style="@style/MMFontPreferenceSmall" />
+        <TextView android:id="@id/cxb" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/i6" android:singleLine="true" style="@style/MMFontPreferenceSmall" />
+    </LinearLayout>
+</LinearLayout>

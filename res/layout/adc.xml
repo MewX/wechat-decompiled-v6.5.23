@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:id="@id/c27" android:background="@drawable/a0u" android:layout_width="fill_parent" android:layout_height="90.0dip" android:layout_alignParentTop="true">
+        <com.tencent.mm.ui.base.MMImageButton android:id="@id/cyn" android:background="@drawable/ia" android:focusable="true" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/i1" android:layout_marginTop="@dimen/i1" android:contentDescription="@string/ay3" />
+        <RelativeLayout android:layout_gravity="center_horizontal" android:background="@drawable/sg" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <com.tencent.mm.ui.base.MMHorList android:layout_gravity="center_horizontal" android:id="@id/cyo" android:scrollbars="none" android:fadingEdge="none" android:layout_width="240.0dip" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:layout_centerHorizontal="true" />
+            <TextView android:textSize="@dimen/g2" android:textStyle="bold" android:textColor="#ffffffff" android:ellipsize="marquee" android:gravity="bottom" android:id="@id/fy" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" android:layout_marginBottom="@dimen/br" android:text="@string/bq7" android:scrollHorizontally="true" android:singleLine="true" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" android:marqueeRepeatLimit="marquee_forever" />
+        </RelativeLayout>
+        <com.tencent.mm.ui.base.MMImageButton android:id="@id/cyp" android:background="@drawable/i_" android:focusable="true" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/i1" android:layout_marginRight="@dimen/i1" android:contentDescription="@string/c87" />
+    </LinearLayout>
+</RelativeLayout>

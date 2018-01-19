@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/nn" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/a5y" android:background="@drawable/d0" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="6.0dip">
+        <LinearLayout android:orientation="horizontal" android:id="@id/a5z" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="16.699982dip" android:layout_marginTop="10.0dip" android:layout_marginRight="13.299988dip">
+            <LinearLayout android:layout_gravity="start" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="2.0">
+                <TextView android:textSize="12.699982dip" android:textColor="@color/ct" android:gravity="start" android:id="@id/a60" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/a5q" />
+            </LinearLayout>
+            <LinearLayout android:layout_gravity="end" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <TextView android:textSize="12.699982dip" android:textColor="@color/de" android:gravity="end" android:id="@id/a61" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/a5n" />
+            </LinearLayout>
+        </LinearLayout>
+        <View android:background="@drawable/f4" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginLeft="16.699982dip" android:layout_marginTop="10.0dip" android:layout_marginRight="13.299988dip" android:layerType="software" />
+        <TextView android:textSize="18.0dip" android:textColor="@color/ct" android:id="@id/a62" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.699982dip" android:layout_marginTop="10.0dip" android:text="@string/a5o" />
+        <TextView android:textSize="12.699982dip" android:textColor="@color/de" android:id="@id/a63" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.699982dip" android:layout_marginTop="7.299988dip" android:layout_marginBottom="16.299988dip" android:text="@string/a5p" />
+    </LinearLayout>
+</LinearLayout>

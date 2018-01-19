@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:paddingLeft="@dimen/h6" android:paddingRight="@dimen/h6" style="@style/MMPreferencePage"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent" style="@style/MMScroll">
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <ImageView android:id="@id/w1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/ge" android:layout_marginBottom="@dimen/ge" android:src="@drawable/a0k" />
+            <TextView android:id="@id/w2" android:padding="6.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/h6" android:text="@string/ahs" android:singleLine="false" android:lineSpacingExtra="4.0dip" style="@style/MMBriefText" />
+            <TextView android:gravity="center|left" android:id="@id/w3" android:background="@drawable/f0" android:paddingLeft="@dimen/i1" android:paddingTop="@dimen/h6" android:paddingBottom="@dimen/h6" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/h6" android:text="@string/ahu" android:lineSpacingExtra="4.0dip" style="@style/MMFontPreferenceLarge" />
+            <LinearLayout android:gravity="center_vertical" android:id="@id/w4" android:background="@drawable/f0" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/gb" android:baselineAligned="false" android:minHeight="@dimen/i0">
+                <TextView android:gravity="center|left" android:paddingLeft="@dimen/i1" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/ai7" android:singleLine="true" android:layout_weight="1.0" style="@style/MMFontPreferenceLarge" />
+                <com.tencent.mm.ui.widget.MMSwitchBtn android:gravity="center|right" android:id="@id/w5" android:focusable="false" android:clickable="false" android:layout_width="@dimen/ic" android:layout_height="@dimen/i_" android:layout_marginRight="@dimen/i1" />
+            </LinearLayout>
+            <TextView android:textSize="@dimen/bw" android:id="@id/w6" android:visibility="gone" android:layout_marginBottom="@dimen/gb" android:text="@string/ahy" style="@style/MMSolidGreenLargeButton" />
+            <TextView android:textSize="@dimen/bw" android:id="@id/w7" android:visibility="gone" android:layout_marginBottom="@dimen/gb" android:text="@string/ai_" style="@style/MMSolidRedLargeButton" />
+            <TextView android:textSize="@dimen/bw" android:id="@id/w8" android:visibility="gone" android:text="@string/ai2" style="@style/MMSolidWhiteLargeButton" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginRight="@dimen/i1"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:id="@id/ha" android:background="@drawable/a9" android:clickable="true" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginRight="@dimen/i1">
+        <ImageView android:id="@id/hb" android:background="@null" android:paddingLeft="@dimen/i1" android:paddingRight="@dimen/i1" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/a7" android:contentDescription="@string/em" />
+        <ImageView android:layout_gravity="center_vertical" android:id="@id/hc" android:background="@color/a_" android:layout_width="@dimen/dd" android:layout_height="@dimen/ge" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_toRightOf="@id/ha" android:layout_centerVertical="true">
+        <com.tencent.mm.ui.fts.widget.FTSEditTextView android:id="@id/b8a" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minWidth="1024.0dip" />
+    </LinearLayout>
+</RelativeLayout>

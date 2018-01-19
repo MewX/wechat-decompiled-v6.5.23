@@ -1,0 +1,22 @@
+.class public final Lcom/tencent/mm/plugin/chatroom/c$a;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lcom/tencent/mm/plugin/chatroom/c;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x19
+    name = "a"
+.end annotation
+
+
+# static fields
+.field public static final dEW:I = 0x7f080bf3
+
+.field public static final dhi:I = 0x7f080535
+
+.field public static final kaN:I = 0x7f080bf5

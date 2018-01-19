@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:orientation="vertical" android:id="@id/as9" android:background="@color/iw" android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:id="@id/dkr" android:background="@color/iw" android:padding="@dimen/gb" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="@dimen/db" android:textColor="#ff228b22" android:gravity="center|left" android:id="@id/dks" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/dxa" android:drawableLeft="@drawable/ajt" android:drawablePadding="5.0dip" />
+        </LinearLayout>
+        <com.tencent.mm.ui.base.MaxListView android:id="@id/dkt" android:background="@color/iw" android:layout_width="fill_parent" android:layout_height="fill_parent" android:divider="#ffd4d4d4" android:dividerHeight="1.0px" />
+        <TextView android:textColor="@color/j0" android:id="@id/dku" android:paddingTop="@dimen/i1" android:visibility="gone" android:layout_height="wrap_content" android:layout_margin="0.0dip" style="@style/WalletPowerByTenpayTips" />
+        <LinearLayout android:gravity="bottom|center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <TextView android:textSize="@dimen/g2" android:textColor="@color/l2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/gb" android:text="@string/e90" android:drawableLeft="@drawable/ao6" android:drawablePadding="@dimen/i1" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

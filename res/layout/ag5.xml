@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/d5u" android:background="@color/bi" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_width="fill_parent" android:layout_height="1.0dip" android:src="@drawable/oq" />
+    <LinearLayout android:background="@color/bi" android:paddingRight="@dimen/i1" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.tencent.mm.plugin.sns.ui.SnsEditText android:textSize="@dimen/i8" android:textColor="@color/r5" android:textColorHint="@color/or" android:gravity="center|left|top" android:id="@id/d5v" android:background="@null" android:paddingLeft="@dimen/tt" android:paddingTop="@dimen/tt" android:layout_width="wrap_content" android:layout_height="wrap_content" android:hint="@string/dbm" android:maxLines="4" android:minLines="4" android:singleLine="false" android:inputType="textCapSentences|textMultiLine" android:textCursorDrawable="@drawable/bp" />
+        <LinearLayout android:gravity="center|right|top" android:layout_gravity="right" android:orientation="horizontal" android:id="@id/d5w" android:paddingLeft="@dimen/gb" android:paddingTop="@dimen/gb" android:paddingBottom="@dimen/gs" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minHeight="@dimen/h5" />
+    </LinearLayout>
+    <LinearLayout android:gravity="bottom" android:layout_gravity="bottom" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.tencent.mm.plugin.sns.ui.SnsSightUploadSayFooter android:gravity="bottom" android:layout_gravity="bottom" android:id="@id/d5x" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/b5s" android:paddingLeft="@dimen/c0" android:paddingRight="@dimen/bq" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/MMFullLineItem"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/b5t" android:background="@drawable/tv" android:layout_width="fill_parent" android:layout_height="@dimen/cu">
+        <com.tencent.mm.ui.base.MaskLayout android:id="@id/b5u" android:layout_width="@dimen/cs" android:layout_height="@dimen/cs" android:layout_marginRight="@dimen/br">
+            <ImageView android:id="@id/in" android:layout_width="@dimen/cr" android:layout_height="@dimen/cr" android:src="@raw/default_avatar" android:layout_centerVertical="true" />
+        </com.tencent.mm.ui.base.MaskLayout>
+        <TextView android:gravity="center_vertical" android:paddingRight="@dimen/gb" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/d0" android:singleLine="true" style="@style/MMFontTitleInList" />
+        <TextView android:textSize="@dimen/i7" android:textColor="@color/r5" android:gravity="center" android:id="@id/b5v" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+</LinearLayout>

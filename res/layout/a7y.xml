@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/ho" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.tencent.mm.ui.tools.ActionBarSearchView android:id="@id/ce2" android:background="@color/a4" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/d2" />
+    <include layout="@layout/mm_action_bar_title" />
+    <FrameLayout android:id="@id/ce3" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <RelativeLayout android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <FrameLayout android:id="@id/ce4" android:layout_width="fill_parent" android:layout_height="280.0dip">
+                    <FrameLayout android:id="@id/bh6" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+                    <FrameLayout android:gravity="center" android:layout_gravity="center" android:id="@id/bh7" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+                </FrameLayout>
+                <RelativeLayout android:id="@id/bh8" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            </RelativeLayout>
+            <ImageButton android:layout_gravity="right" android:id="@id/bh9" android:background="@drawable/kt" android:layout_width="49.0dip" android:layout_height="49.0dip" android:layout_marginTop="215.0dip" android:layout_marginRight="@dimen/ss" />
+            <RelativeLayout android:id="@id/ce5" android:background="@color/r5" android:layout_width="fill_parent" android:layout_height="@dimen/tf" android:layout_marginTop="280.0dip">
+                <com.tencent.mm.plugin.location.ui.PoiHeaderView android:id="@id/ce6" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+                <com.tencent.mm.ui.base.MMLoadMoreListView android:id="@id/ce7" android:background="@color/r5" android:layoutAnimation="@anim/ay" android:layout_width="fill_parent" android:layout_height="wrap_content" android:cacheColorHint="#00000000" android:layout_below="@id/ce6" />
+                <RelativeLayout android:id="@id/ce8" android:background="@drawable/f0" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_alignParentBottom="true">
+                    <ProgressBar android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" style="@style/largeCustomProgressBar" />
+                </RelativeLayout>
+            </RelativeLayout>
+        </FrameLayout>
+        <com.tencent.mm.ui.base.MMLoadMoreListView android:id="@id/ce9" android:background="@color/r5" android:focusable="true" android:visibility="gone" android:layoutAnimation="@anim/ay" android:layout_width="fill_parent" android:layout_height="fill_parent" android:listSelector="@null" android:transcriptMode="disabled" android:cacheColorHint="#00000000" android:divider="@null" android:dividerHeight="0.0px" />
+        <TextView android:gravity="center" android:id="@id/ce_" android:background="@color/r5" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/bqb" />
+        <RelativeLayout android:id="@id/cea" android:background="@color/r5" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <ProgressBar android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" style="@style/largeCustomProgressBar" />
+        </RelativeLayout>
+    </FrameLayout>
+</LinearLayout>

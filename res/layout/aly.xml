@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/r5" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="64.0dip">
+        <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/doe" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/gb" android:layout_weight="1.0">
+            <TextView android:textSize="@dimen/h7" android:textColor="@color/bj" android:id="@id/dof" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="" />
+            <TextView android:textSize="@dimen/g2" android:textColor="@color/hv" android:ellipsize="middle" android:id="@id/dog" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/i1" android:layout_marginRight="@dimen/ge" android:text="" android:maxLines="2" />
+        </LinearLayout>
+        <ImageView android:id="@id/doh" android:layout_width="15.0dip" android:layout_height="15.0dip" android:layout_marginRight="@dimen/ge" android:src="@raw/radio_off" />
+    </LinearLayout>
+    <View android:background="@color/bt" android:layout_width="fill_parent" android:layout_height="1.0px" />
+</LinearLayout>

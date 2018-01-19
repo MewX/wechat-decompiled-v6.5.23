@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:id="@id/ik" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/gs" android:layout_marginRight="@dimen/gs" android:layout_centerInParent="true">
+        <FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <com.tencent.mm.ui.tools.PressImageView android:id="@id/awv" android:background="@color/r5" android:layout_width="@dimen/h1" android:layout_height="@dimen/h1" android:src="@drawable/a1v" />
+            <com.tencent.mm.ui.chatting.SendDataToDeviceProgressBar android:id="@id/cux" android:visibility="invisible" android:layout_width="@dimen/h1" android:layout_height="@dimen/h1" />
+            <ImageView android:id="@id/yr" android:layout_width="@dimen/h1" android:layout_height="@dimen/h1" android:src="@raw/send_data_round_rect_shadow" android:layout_centerVertical="true" />
+        </FrameLayout>
+        <TextView android:textSize="@dimen/i7" android:textColor="@color/b7" android:ellipsize="end" android:gravity="center" android:id="@id/aww" android:layout_width="@dimen/h1" android:layout_height="wrap_content" android:layout_marginTop="@dimen/tc" android:maxLines="2" android:singleLine="false" />
+        <TextView android:textSize="@dimen/i7" android:textColor="@color/b7" android:ellipsize="end" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/cuy" android:layout_width="@dimen/h1" android:layout_height="wrap_content" android:singleLine="true" />
+    </LinearLayout>
+</RelativeLayout>

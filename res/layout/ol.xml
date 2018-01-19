@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:scrollbars="none" android:fillViewport="true" style="@style/NavPage"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:form="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:id="@id/avm" android:layout_width="fill_parent" android:layout_height="fill_parent" style="@style/NavPage">
+            <com.tencent.mm.plugin.emoji.ui.v2.EmojiStoreV2RewardBannerView android:id="@id/avn" android:background="@drawable/sb" android:layout_width="fill_parent" android:layout_height="wrap_content" android:scaleType="fitXY" />
+            <TextView android:textSize="@dimen/g2" android:textColor="#ff6c6c6c" android:id="@id/avo" android:paddingLeft="@dimen/gj" android:paddingTop="@dimen/gb" android:paddingRight="@dimen/gj" android:paddingBottom="@dimen/gb" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/asg" />
+            <com.tencent.mm.plugin.emoji.ui.GridInScrollView android:gravity="center_horizontal" android:id="@android:id/list" android:background="@color/pt" android:focusable="true" android:scrollbars="none" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/gj" android:layout_marginRight="@dimen/gj" android:listSelector="@android:color/transparent" android:cacheColorHint="#00000000" android:horizontalSpacing="@dimen/gs" android:verticalSpacing="@dimen/gb" android:numColumns="3" android:divider="@null" android:dividerHeight="0.0dip" />
+            <LinearLayout android:gravity="bottom|center" android:layout_gravity="bottom|center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <TextView android:textColor="@color/f8" android:gravity="bottom|center" android:layout_gravity="bottom|center" android:id="@id/avp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/h6" android:text="@string/asn" style="@style/MMTextView" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:id="@id/avq" android:visibility="gone" style="@style/NavPage">
+            <com.tencent.mm.ui.base.MMFormInputView android:id="@id/avr" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/df" android:layout_marginTop="@dimen/ge" android:layout_marginRight="@dimen/df" android:layout_marginBottom="@dimen/h6" form:form_layout="@layout/oi" form:form_title="@string/asp" form:form_hint="@string/aso" style="@style/MMLineEditText" />
+            <Button android:id="@id/avs" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/df" android:layout_marginTop="@dimen/h6" android:layout_marginRight="@dimen/df" android:layout_marginBottom="@dimen/h6" android:text="@string/asq" style="@style/MMSolidRedLargeButton" />
+        </LinearLayout>
+    </FrameLayout>
+</ScrollView>

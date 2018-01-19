@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout style="@style/NavPage"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:orientation="vertical" android:id="@id/ik" android:background="@color/l3" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ListView android:id="@id/awp" android:background="@color/l3" android:layout_above="@id/aws" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" style="@style/MMList" />
+        <TextView android:id="@id/awq" android:layout_above="@id/aws" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" style="@style/MMFontEmptyMsgLarge" />
+        <LinearLayout android:orientation="horizontal" android:id="@id/aws" android:background="@drawable/aae" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="49.0dip" android:layout_alignParentLeft="true" android:layout_alignParentBottom="true" />
+    </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res-auto"
+  xmlns:android1="http://schemas.android.com/apk/res/android">
+    <PreferenceTitleCategory android:title="@string/th" android:key="backup_select_ext_time_title" />
+    <CheckPreference android:title="@string/tg" android:key="backup_select_ext_time" />
+    <Preference android:title="@string/tv" android:key="backup_select_begin_time" android:layout="@layout/a34" />
+    <Preference android:title="@string/tu" android:key="backup_select_end_time" android:layout="@layout/a34" />
+    <PreferenceSmallCategory />
+    <PreferenceTitleCategory android:title="@string/tf" android:key="backup_select_ext_content_title" />
+    <CheckPreference android:title="@string/td" android:key="backup_select_ext_content" />
+</PreferenceScreen>

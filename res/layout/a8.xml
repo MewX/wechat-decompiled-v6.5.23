@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/h2" android:layout_width="wrap_content" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:id="@id/h3" android:background="@drawable/a9" android:clickable="true" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginRight="@dimen/bv">
+        <ImageView android:id="@id/h4" android:background="@null" android:paddingLeft="@dimen/i1" android:paddingRight="@dimen/i1" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/a7" android:contentDescription="@string/em" />
+        <ImageView android:layout_gravity="center_vertical" android:id="@id/gz" android:background="@color/a_" android:layout_width="@dimen/dd" android:layout_height="@dimen/ge" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+        <TextView android:ellipsize="middle" android:gravity="center_vertical" android:id="@id/h5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/eaw" android:singleLine="true" style="@style/MMActionBar.TitleTextStyle" />
+        <TextView android:textSize="@dimen/g2" android:textColor="#ff999999" android:ellipsize="end" android:id="@id/h6" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/eaw" android:singleLine="true" />
+    </LinearLayout>
+    <ImageView android:id="@id/h7" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/br" android:src="@raw/chat_mute_notify_title_icon" />
+    <ImageView android:id="@id/h8" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/br" android:src="@raw/chat_phone_notify_title_icon" />
+    <ImageView android:id="@id/h9" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/br" android:src="@raw/qq" />
+    <ImageView android:id="@id/h_" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/br" android:src="@raw/chat_reject_title_icon" />
+</LinearLayout>

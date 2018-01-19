@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/a" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/u7" android:textColor="@color/r7" android:ellipsize="end" android:gravity="center|left" android:id="@id/ail" android:background="@drawable/pu" android:paddingLeft="16.0dip" android:paddingRight="16.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/u5" android:maxLines="2" />
+    <ListView android:id="@id/aim" android:background="@color/r5" android:visibility="gone" android:scrollbars="none" android:fadingEdge="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:listSelector="@drawable/ai6" android:cacheColorHint="#00000000" android:overScrollMode="never" />
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/ain" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <include android:id="@id/aio" layout="@layout/collect_ring_switch_layout" />
+        <TextView android:textSize="14.0dip" android:textColor="@color/l9" android:id="@id/aip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="50.0dip" android:text="@string/adv" />
+    </LinearLayout>
+</LinearLayout>

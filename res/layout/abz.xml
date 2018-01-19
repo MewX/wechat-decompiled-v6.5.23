@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@id/pl" android:paddingLeft="@dimen/i1" android:paddingRight="@dimen/i1" android:layout_height="wrap_content" android:minHeight="@dimen/gn" style="@style/MMListItem"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.tencent.mm.ui.base.MaskLayout android:id="@id/cu7" android:layout_width="@dimen/hu" android:layout_height="@dimen/hu">
+        <ImageView android:id="@id/in" android:layout_width="@dimen/ht" android:layout_height="@dimen/ht" android:src="@raw/default_avatar" android:layout_centerVertical="true" />
+    </com.tencent.mm.ui.base.MaskLayout>
+    <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <TextView android:ellipsize="end" android:gravity="center|left" android:id="@id/cu8" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/i4" android:text="{nick}" android:singleLine="true" style="@style/MMFontTitleInList" />
+        <TextView android:textSize="@dimen/g2" android:textColor="@color/mu" android:ellipsize="end" android:gravity="center|left" android:id="@id/cu9" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/i4" android:singleLine="true" style="@style/MMFontTitleInList" />
+    </LinearLayout>
+</LinearLayout>

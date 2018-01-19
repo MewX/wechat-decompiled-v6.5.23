@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/RecordListItem"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView style="@style/RecordListItemAvatar" />
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <include layout="@layout/record_listitem_header" />
+        <TextView android:textColor="@color/if" android:gravity="center|left" android:id="@id/cn6" android:background="@drawable/ga" android:padding="@dimen/h6" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/gb" android:text="@string/b35" android:drawablePadding="@dimen/i1" />
+        <LinearLayout android:orientation="horizontal" android:id="@id/cn4" android:background="@drawable/ga" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginRight="@dimen/el" android:minHeight="@dimen/ek" style="@style/FavRecordContent">
+            <FrameLayout android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <com.tencent.mm.ui.MMImageView android:id="@id/fx" android:src="@color/e3" android:contentDescription="@string/ek" style="@style/FavRecordItemIcon" />
+                <ImageView android:id="@id/cn7" android:visibility="gone" android:src="@drawable/a54" android:contentDescription="@string/ek" style="@style/FavRecordItemIcon" />
+            </FrameLayout>
+            <LinearLayout android:orientation="vertical" android:paddingTop="@dimen/i1" android:paddingBottom="@dimen/i1" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                <TextView android:textSize="@dimen/h7" android:id="@id/fy" android:layout_marginLeft="10.0dip" style="@style/FavListItemTitle" />
+                <TextView android:textSize="@dimen/i7" android:textColor="@color/ml" android:id="@id/a98" android:layout_marginLeft="10.0dip" android:maxLines="4" android:singleLine="false" style="@style/FavListItemTitle" />
+                <TextView android:textSize="@dimen/i7" android:id="@id/cn8" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" style="@style/FavListItemBaseTextGrey" />
+            </LinearLayout>
+        </LinearLayout>
+        <ImageView android:layout_width="fill_parent" android:layout_height="1.0px" style="@style/RecordListItemEndDivider" />
+    </LinearLayout>
+</LinearLayout>

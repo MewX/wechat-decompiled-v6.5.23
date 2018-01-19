@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@id/alh" android:visibility="gone" android:layout_width="@dimen/sr" android:layout_height="@dimen/sr" />
+        <ImageView android:id="@id/ali" android:visibility="gone" android:layout_width="@dimen/sr" android:layout_height="@dimen/sr" android:layout_marginLeft="@dimen/i1" />
+        <ImageView android:id="@id/alj" android:visibility="gone" android:layout_width="@dimen/sr" android:layout_height="@dimen/sr" android:layout_marginLeft="@dimen/i1" />
+        <ImageView android:id="@id/alk" android:visibility="gone" android:layout_width="@dimen/sr" android:layout_height="@dimen/sr" android:layout_marginLeft="@dimen/i1" />
+        <ImageView android:id="@id/all" android:visibility="gone" android:layout_width="@dimen/sr" android:layout_height="@dimen/sr" android:layout_marginLeft="@dimen/i1" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@id/alm" android:visibility="gone" android:layout_width="@dimen/sr" android:layout_height="@dimen/sr" android:layout_marginTop="@dimen/gk" />
+        <ImageView android:id="@id/aln" android:visibility="gone" android:layout_width="@dimen/sr" android:layout_height="@dimen/sr" android:layout_marginLeft="@dimen/i1" android:layout_marginTop="@dimen/gk" />
+        <ImageView android:id="@id/alo" android:visibility="gone" android:layout_width="@dimen/sr" android:layout_height="@dimen/sr" android:layout_marginLeft="@dimen/i1" android:layout_marginTop="@dimen/gk" />
+        <ImageView android:id="@id/alp" android:visibility="gone" android:layout_width="@dimen/sr" android:layout_height="@dimen/sr" android:layout_marginLeft="@dimen/i1" android:layout_marginTop="@dimen/gk" />
+    </LinearLayout>
+</LinearLayout>

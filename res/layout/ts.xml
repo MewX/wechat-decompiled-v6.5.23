@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/r5" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerInParent="true">
+            <RelativeLayout android:layout_gravity="center_horizontal" android:layout_width="@dimen/pe" android:layout_height="@dimen/pe">
+                <com.tencent.mm.plugin.gif.MMAnimateView android:id="@id/b99" android:layout_width="@dimen/pe" android:layout_height="@dimen/pe" android:layout_centerInParent="true" />
+                <ProgressBar android:gravity="center" android:id="@id/rn" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+            </RelativeLayout>
+            <LinearLayout android:layout_gravity="center_horizontal" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <Button android:id="@id/b9_" android:layout_width="wrap_content" android:layout_marginTop="15.0dip" android:minWidth="200.0dip" android:text="@string/ck3" android:maxLines="1" style="@style/MMlineGreenLargeButton" />
+                <Button android:id="@id/b9a" android:layout_width="wrap_content" android:layout_marginTop="25.0dip" android:minWidth="200.0dip" android:text="@string/c0" android:maxLines="1" style="@style/MMlineGreyLargeButton" />
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+    <View android:background="@color/nn" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginLeft="20.0dip" />
+    <RelativeLayout android:id="@id/aws" android:layout_width="fill_parent" android:layout_height="80.0dip" android:layout_marginLeft="20.0dip" android:layout_alignParentBottom="true">
+        <TextView android:textSize="@dimen/h7" android:textColor="@color/rj" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/aqx" android:layout_centerVertical="true" />
+        <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_alignParentRight="true">
+            <TextView android:textSize="@dimen/h7" android:ellipsize="end" android:layout_gravity="center_vertical" android:id="@id/b9b" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10.0dip" android:maxWidth="150.0dip" android:text="{emoji_from_title_tv}" android:lines="1" />
+            <ImageView android:layout_gravity="center_vertical" android:id="@id/b9c" android:layout_width="60.0dip" android:layout_height="60.0dip" android:layout_marginRight="10.0dip" />
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

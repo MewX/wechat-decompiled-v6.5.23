@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout style="@style/NavPage"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:form="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center_horizontal" android:layout_gravity="center" android:orientation="vertical" android:background="@color/l3" android:paddingLeft="@dimen/h6" android:paddingTop="@dimen/gb" android:paddingRight="@dimen/h6" android:clickable="false" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@id/ww" android:layout_width="@dimen/na" android:layout_height="@dimen/na" android:layout_marginTop="@dimen/gf" />
+        <TextView android:textSize="@dimen/h7" android:textColor="@color/bi" android:gravity="center" android:id="@id/wx" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/gb" android:text="@string/dio" />
+        <Button android:id="@id/wy" android:visibility="visible" android:layout_marginTop="@dimen/ge" android:layout_marginBottom="@dimen/i1" android:text="@string/dip" style="@style/MMSolidGreenLargeButton" />
+        <Button android:id="@id/wz" android:visibility="visible" android:layout_marginTop="@dimen/ge" android:layout_marginBottom="@dimen/i1" android:text="@string/a0j" style="@style/MMSolidGreenLargeButton" />
+    </LinearLayout>
+</RelativeLayout>

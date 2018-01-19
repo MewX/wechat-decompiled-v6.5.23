@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/b0n" android:background="@drawable/ae3" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <View android:id="@id/b0o" android:background="@drawable/fw" android:layout_width="62.0dip" android:layout_height="fill_parent" android:alpha="0.75" />
+        <RelativeLayout android:background="@drawable/ae2" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <ImageView android:id="@id/b0p" android:layout_marginLeft="@dimen/po" style="@style/FaceRectWhiteStringHorizontal" />
+            <ImageView android:id="@id/b0q" android:layout_marginRight="@dimen/po" android:layout_alignParentRight="true" style="@style/FaceRectWhiteStringHorizontal" />
+            <ImageView android:id="@id/b0r" android:layout_marginLeft="@dimen/po" android:layout_alignParentBottom="true" style="@style/FaceRectWhiteStringHorizontal" />
+            <ImageView android:id="@id/b0s" android:layout_marginRight="@dimen/po" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" style="@style/FaceRectWhiteStringHorizontal" />
+            <ImageView android:id="@id/b0t" android:layout_marginTop="@dimen/po" style="@style/FaceRectWhiteStringVertical" />
+            <ImageView android:id="@id/b0u" android:layout_marginBottom="@dimen/po" android:layout_alignParentBottom="true" style="@style/FaceRectWhiteStringVertical" />
+            <ImageView android:id="@id/b0v" android:layout_marginTop="@dimen/po" android:layout_alignParentRight="true" style="@style/FaceRectWhiteStringVertical" />
+            <ImageView android:id="@id/b0w" android:layout_marginBottom="@dimen/po" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" style="@style/FaceRectWhiteStringVertical" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/b0x" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </RelativeLayout>
+</merge>

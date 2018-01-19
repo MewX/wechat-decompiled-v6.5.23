@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/ji" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="@dimen/gu" android:minHeight="152.0dip" style="@style/PopupBgWithoutShadow">
+        <RelativeLayout android:id="@id/jj" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="20.0sp" android:textColor="@color/b0" android:id="@id/jk" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/ge" android:layout_marginTop="@dimen/ge" android:text="@string/e8p" />
+            <ImageView android:id="@id/jl" android:layout_width="@dimen/ht" android:layout_height="@dimen/ht" android:layout_marginLeft="@dimen/ge" android:layout_marginTop="@dimen/gb" android:src="@raw/login_app_default_avatar" android:layout_below="@id/jk" />
+            <TextView android:textSize="14.0sp" android:textColor="@color/b0" android:id="@id/jm" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/gs" android:layout_marginTop="@dimen/lc" android:layout_marginRight="@dimen/gb" android:text="@string/bqu" android:maxLines="2" android:layout_toRightOf="@id/jl" />
+            <ImageView android:background="@color/ax" android:layout_width="@dimen/r0" android:layout_height="1.0px" android:layout_marginLeft="@dimen/ge" android:layout_marginTop="@dimen/gb" android:layout_below="@id/jl" />
+        </RelativeLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/jn" android:background="@color/r5" android:layout_width="@dimen/r0" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/ge" android:layout_marginTop="4.0dip">
+            <com.tencent.mm.ui.base.AuthorizeItemListView android:id="@id/jo" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="wrap_content" android:listSelector="@null" android:cacheColorHint="#00000000" android:divider="@null" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" />
+        </LinearLayout>
+        <LinearLayout android:gravity="right" android:orientation="horizontal" android:id="@id/jp" android:paddingLeft="@dimen/gj" android:paddingTop="@dimen/qx" android:paddingRight="@dimen/gb" android:paddingBottom="@dimen/gb" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <Button android:textSize="@dimen/gq" android:textColor="@color/az" android:id="@id/jq" android:background="@drawable/ag" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="@dimen/cq" android:text="@string/brg" style="@style/MMSolidWhiteSmallButton" />
+            <Button android:textSize="@dimen/gq" android:textColor="@color/ay" android:id="@id/jr" android:background="@drawable/ag" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="@dimen/cq" android:text="@string/bqr" style="@style/MMSolidWhiteSmallButton" />
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

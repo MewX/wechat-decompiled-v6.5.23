@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@drawable/f0" android:paddingLeft="@dimen/gb" android:paddingTop="@dimen/gs" android:paddingRight="@dimen/gb" android:paddingBottom="@dimen/gs" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/ckt" android:paddingTop="@dimen/br" android:paddingBottom="@dimen/br" android:layout_width="@dimen/hz" android:layout_height="@dimen/h4" android:src="@raw/sns_shoot_share_normal" android:scaleType="fitCenter" />
+    <TextView android:textSize="@dimen/h7" android:textColor="@color/lb" android:gravity="center|left" android:id="@id/asd" android:paddingLeft="@dimen/i1" android:paddingRight="@dimen/i1" android:layout_width="wrap_content" android:layout_height="@dimen/h4" android:text="@string/dar" android:layout_toRightOf="@id/ckt" />
+    <TextView android:textSize="@dimen/g2" android:textColor="@color/if" android:ellipsize="end" android:gravity="center|right" android:id="@id/cku" android:paddingLeft="@dimen/i1" android:paddingRight="@dimen/i1" android:layout_width="wrap_content" android:layout_height="@dimen/h4" android:maxWidth="280.0dip" android:text="@string/d9a" android:singleLine="true" android:layout_toRightOf="@id/asd" android:layout_alignParentRight="true" />
+</RelativeLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" style="@style/WalletBody"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="80.0dip" android:src="@raw/wallet_wxcredit_open_wait" />
+    <TextView android:textSize="@dimen/bz" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:text="@string/e69" style="@style/WalletDefaultText" />
+    <TextView android:textSize="@dimen/bw" android:textColor="@color/if" android:id="@id/dp6" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:text="@string/e6a" />
+    <CheckBox android:textSize="@dimen/g2" android:textColor="@color/bi" android:gravity="center|left" android:layout_gravity="center|left" android:id="@id/dp7" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:checked="true" android:minHeight="22.0dip" android:text="@string/e6_" style="@style/MMTextCheckBox" />
+    <Button android:id="@id/ajh" android:layout_width="fill_parent" android:layout_marginTop="16.0dip" android:text="@string/e67" style="@style/MMSolidGreenLargeButton" />
+</LinearLayout>

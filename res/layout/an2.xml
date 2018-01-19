@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="#fff0eff4" android:paddingTop="@dimen/gb" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:paddingTop="@dimen/h6" android:paddingBottom="@dimen/h6" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/MMFullLineItem">
+        <EditText android:gravity="center|left" android:id="@id/dr7" android:layout_width="fill_parent" android:layout_height="fill_parent" android:hint="@string/ed7" android:singleLine="true" android:layout_weight="1.0" />
+        <Button android:textColor="@color/rj" android:id="@id/dr8" android:background="@drawable/cb" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/i4" android:minWidth="@dimen/hx" android:minHeight="@dimen/gp" android:text="@string/ed6" style="@style/MMSolidWhiteMiddleButton" />
+    </LinearLayout>
+    <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/i1">
+        <Button android:id="@id/dr9" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ed5" android:layout_weight="1.0" style="@style/MMSolidWhiteMiddleButton" />
+        <Button android:id="@id/dr_" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/edc" android:layout_weight="1.0" style="@style/MMSolidWhiteMiddleButton" />
+    </LinearLayout>
+    <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:weightSum="5.0">
+        <Button android:id="@id/dra" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ed8" android:layout_weight="1.0" style="@style/WidgetSolidWhiteButton" />
+        <Button android:id="@id/drb" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/eda" android:layout_weight="1.0" style="@style/WidgetSolidWhiteButton" />
+        <Button android:id="@id/drc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ed_" android:layout_weight="1.0" style="@style/WidgetSolidWhiteButton" />
+        <Button android:id="@id/drd" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/edb" android:layout_weight="1.0" style="@style/WidgetSolidWhiteButton" />
+        <Button android:id="@id/dre" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ed9" android:layout_weight="1.0" style="@style/WidgetSolidWhiteButton" />
+    </LinearLayout>
+    <com.tencent.mm.plugin.appbrand.widget.recyclerview.MRecyclerView android:id="@id/drf" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</LinearLayout>

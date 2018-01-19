@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:paddingTop="0.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" style="@style/WalletBody"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:background="@color/r5" android:paddingTop="@dimen/ge" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:layout_gravity="center_horizontal" android:id="@id/dhx" android:paddingBottom="@dimen/ge" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/h_" android:src="@drawable/aoq" />
+        <TextView android:textSize="16.0dip" android:textColor="@color/if" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/dnk" android:paddingLeft="16.0dip" android:paddingRight="16.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="27.0dip" android:text="@string/dco" style="@style/MMTextView" />
+    </LinearLayout>
+    <TextView android:textColor="@color/if" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:layout_marginBottom="@dimen/gs" android:text="@string/e15" style="@style/WalletElementTips" />
+    <LinearLayout android:orientation="vertical" android:background="@color/r5" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <RelativeLayout android:id="@id/dnl" android:paddingTop="@dimen/gb" android:paddingBottom="@dimen/gb" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/MMFullLineItem">
+            <TextView android:textSize="@dimen/bw" android:textColor="@color/lb" android:id="@id/dnm" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/i1" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" />
+            <TextView android:textSize="@dimen/g2" android:textColor="@color/if" android:id="@id/dnn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/dnm" android:layout_alignLeft="@id/dnm" />
+        </RelativeLayout>
+        <View android:id="@id/dno" android:background="@color/j2" android:layout_width="fill_parent" android:layout_height="2.0px" android:layout_marginLeft="@dimen/gj" android:layout_alignParentBottom="false" />
+        <RelativeLayout android:id="@id/dnp" android:paddingTop="@dimen/gb" android:paddingBottom="@dimen/gb" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/MMFullLineItem">
+            <TextView android:textSize="@dimen/bw" android:textColor="@color/lb" android:id="@id/dnq" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/i1" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" />
+            <TextView android:textSize="@dimen/g2" android:textColor="@color/if" android:id="@id/dnr" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/dnq" android:layout_alignLeft="@id/dnq" />
+        </RelativeLayout>
+        <View android:id="@id/dns" android:background="@color/j2" android:layout_width="fill_parent" android:layout_height="2.0px" android:layout_marginLeft="@dimen/gj" android:layout_alignParentBottom="false" />
+        <RelativeLayout android:id="@id/dnt" android:paddingTop="@dimen/gb" android:paddingBottom="@dimen/gb" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/MMFullLineItem">
+            <TextView android:textSize="@dimen/bw" android:textColor="@color/lb" android:id="@id/dnu" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/i1" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" />
+            <TextView android:textSize="@dimen/g2" android:textColor="@color/if" android:id="@id/dnv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/dnu" android:layout_alignLeft="@id/dnu" />
+        </RelativeLayout>
+    </LinearLayout>
+    <TextView android:textSize="@dimen/g2" android:textColor="@color/if" android:id="@id/dnw" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/gs" android:layout_marginTop="@dimen/gs" android:layout_below="@id/dnu" android:layout_alignLeft="@id/dnu" />
+</LinearLayout>

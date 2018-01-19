@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="@dimen/i0">
+        <TextView android:id="@id/b4" style="@style/MallCommonTitle" />
+        <TextView android:id="@id/b2" style="@style/MallCommonPrefilled" />
+        <EditText android:id="@id/b0" style="@style/MallCommonContent" />
+        <com.tencent.mm.pluginsdk.ui.wallet.WalletIconImageView android:id="@id/b1" android:src="@drawable/mi" style="@style/MallCommonInfoIv" />
+    </LinearLayout>
+</merge>

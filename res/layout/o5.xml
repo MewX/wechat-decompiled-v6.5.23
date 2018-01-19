@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/auk" android:background="@color/r5" android:descendantFocusability="blocksDescendants" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/aul" android:layout_width="wrap_content" android:layout_height="wrap_content" layout="@layout/emoji_store_v2_designer_header_item" />
+    <LinearLayout android:orientation="horizontal" android:paddingLeft="@dimen/h6" android:paddingRight="@dimen/h6" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/h6">
+        <TextView android:textSize="@dimen/bp" android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@id/aum" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/MMFontTitleInList" />
+    </LinearLayout>
+    <TextView android:textSize="14.0sp" android:textColor="#ff6c6c6c" android:id="@id/aun" android:paddingTop="@dimen/i1" android:paddingBottom="@dimen/i1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/h6" android:layout_marginRight="@dimen/h6" android:lineSpacingMultiplier="1.1" />
+    <View android:id="@id/auo" android:background="@drawable/f0" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/h6" android:layout_marginRight="@dimen/h6" />
+    <include android:id="@id/aug" layout="@layout/emoji_store_v2_designer_bar" />
+    <include android:id="@id/aup" layout="@layout/emoji_store_v2_designer_product_bar" />
+    <TextView android:id="@id/auq" android:background="@color/nn" android:paddingLeft="@dimen/h6" android:paddingTop="@dimen/gj" android:paddingRight="@dimen/h6" android:paddingBottom="@dimen/i1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/atb" style="@style/MMPreference.Catagory" />
+</LinearLayout>

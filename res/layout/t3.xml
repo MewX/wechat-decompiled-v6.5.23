@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/nn" android:paddingTop="@dimen/gb" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:background="@color/r5" android:paddingLeft="@dimen/h6" android:paddingTop="@dimen/h6" android:paddingRight="@dimen/h6" android:paddingBottom="@dimen/i1" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textColorHint="@color/ic" android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@id/b6i" android:background="@drawable/aff" android:layout_width="fill_parent" android:layout_height="@dimen/hy" android:hint="@string/am2" android:singleLine="true" android:drawableLeft="@raw/searchbar_icon" android:imeOptions="actionSearch" />
+    </LinearLayout>
+    <TextView android:background="@color/nn" android:paddingLeft="@dimen/h6" android:paddingTop="@dimen/gb" android:paddingRight="@dimen/h6" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/b6k" style="@style/MMListCatalog" />
+</LinearLayout>

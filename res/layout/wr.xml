@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center|left" android:orientation="horizontal" android:id="@id/bgw" android:background="@drawable/pp" android:layout_width="fill_parent" android:layout_height="@dimen/i0">
+        <ImageView android:layout_gravity="center_vertical" android:id="@id/bgx" android:layout_width="@dimen/h4" android:layout_height="@dimen/h4" android:layout_marginLeft="22.0dip" android:layout_marginRight="20.0dip" android:src="@raw/webview_keep_banner_icon" />
+        <com.tencent.mm.ui.ScrollAlwaysTextView android:textSize="@dimen/g2" android:textColor="@color/pq" android:ellipsize="marquee" android:id="@id/bgy" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="0.0dip" android:layout_weight="1.0" android:marqueeRepeatLimit="marquee_forever" style="@style/MMFontPreferenceLarge" />
+    </LinearLayout>
+</LinearLayout>

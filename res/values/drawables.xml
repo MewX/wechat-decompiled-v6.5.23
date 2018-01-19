@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="drawable" name="s_">#19000000</item>
+    <item type="drawable" name="sa">#19ffffff</item>
+    <item type="drawable" name="sb">#fff3f3f3</item>
+    <item type="drawable" name="sc">@color/he</item>
+    <item type="drawable" name="sd">@color/r5</item>
+    <item type="drawable" name="se">#3333b5e5</item>
+    <item type="drawable" name="sf">#bf000000</item>
+    <item type="drawable" name="sg">#00000000</item>
+    <item type="drawable" name="sh">#ffc7c7c7</item>
+    <item type="drawable" name="si">#ffffffff</item>
+</resources>

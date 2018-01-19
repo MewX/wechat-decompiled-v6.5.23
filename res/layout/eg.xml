@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout style="@style/NavPage"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout style="@style/MMBody">
+        <EditText android:id="@id/wu" android:hint="@string/a0d" android:inputType="number" style="@style/MMLineEditText" />
+        <View style="@style/MMLabelSplit" />
+        <EditText android:id="@id/wv" android:hint="@string/a0c" style="@style/MMLineEditPass" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center|left" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/fy" android:layout_width="@dimen/en" android:layout_height="wrap_content" android:layout_marginRight="@dimen/gk" android:text="@string/ain" android:singleLine="false" style="@style/MMFontPreferenceLarge" />
+    <ImageView android:id="@id/c4e" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/gk" android:src="@raw/profile_social_mobile" android:contentDescription="@null" />
+    <ImageView android:id="@id/c4f" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/gk" android:src="@raw/profile_social_qq" android:contentDescription="@null" />
+    <ImageView android:id="@id/c4g" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/gk" android:src="@raw/profile_social_linkedin" android:contentDescription="@null" />
+    <ImageView android:id="@id/c4h" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/gk" android:src="@raw/profile_social_facebook" android:contentDescription="@null" />
+    <ImageView android:id="@id/c4i" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/gk" android:src="@raw/profile_social_google_contacts" android:contentDescription="@null" />
+    <ImageView android:id="@id/c4j" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/gk" android:src="@raw/profile_social_weishop" android:contentDescription="@null" />
+</LinearLayout>

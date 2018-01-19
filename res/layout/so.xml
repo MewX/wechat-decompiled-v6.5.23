@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:paddingTop="@dimen/ge" android:paddingBottom="@dimen/ge" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minWidth="@dimen/gu" android:minHeight="@dimen/gt" style="@style/PopupBgWithoutShadow"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@raw/confirm_dialog_successful_icon" />
+    <TextView android:textSize="@dimen/i5" android:textColor="@color/bi" android:gravity="center" android:id="@id/b5b" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/h6" android:layout_marginTop="@dimen/h6" android:layout_marginRight="@dimen/h6" android:text="@string/b6e" />
+</LinearLayout>

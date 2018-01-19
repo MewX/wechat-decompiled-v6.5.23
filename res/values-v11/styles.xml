@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="q" parent="@style/ar">
+        <item name="android:textColor">?android:textColorPrimaryInverse</item>
+        <item name="android:textColorHighlight">?android:textColorHighlightInverse</item>
+        <item name="android:textColorHint">?android:textColorHintInverse</item>
+        <item name="android:textColorLink">?android:textColorLinkInverse</item>
+    </style>
+    <style name="r" parent="@style/b0">
+        <item name="android:textColor">?android:textColorPrimaryInverse</item>
+        <item name="android:textColorHighlight">?android:textColorHighlightInverse</item>
+        <item name="android:textColorHint">?android:textColorHintInverse</item>
+        <item name="android:textColorLink">?android:textColorLinkInverse</item>
+    </style>
+    <style name="s" parent="@style/b3">
+        <item name="android:textColor">?android:textColorSecondaryInverse</item>
+        <item name="android:textColorHighlight">?android:textColorHighlightInverse</item>
+        <item name="android:textColorHint">?android:textColorHintInverse</item>
+        <item name="android:textColorLink">?android:textColorLinkInverse</item>
+    </style>
+    <style name="t" parent="@style/b7">
+        <item name="android:textColor">?android:textColorTertiaryInverse</item>
+        <item name="android:textColorHighlight">?android:textColorHighlightInverse</item>
+        <item name="android:textColorHint">?android:textColorHintInverse</item>
+        <item name="android:textColorLink">?android:textColorLinkInverse</item>
+    </style>
+    <style name="u" parent="@style/b8">
+        <item name="android:textColor">?android:textColorPrimaryInverse</item>
+        <item name="android:textColorHighlight">?android:textColorHighlightInverse</item>
+        <item name="android:textColorHint">?android:textColorHintInverse</item>
+        <item name="android:textColorLink">?android:textColorLinkInverse</item>
+    </style>
+    <style name="v" parent="@style/b9">
+        <item name="android:textColor">?android:textColorPrimaryInverse</item>
+        <item name="android:textColorHighlight">?android:textColorHighlightInverse</item>
+        <item name="android:textColorHint">?android:textColorHintInverse</item>
+        <item name="android:textColorLink">?android:textColorLinkInverse</item>
+    </style>
+    <style name="w" parent="@style/yf" />
+    <style name="x" parent="@style/yg" />
+    <style name="y" parent="@android:style/Widget.Holo.ProgressBar" />
+    <style name="z" parent="@android:style/Widget.Holo.ProgressBar.Horizontal" />
+    <style name="a0" parent="@style/yh" />
+    <style name="a1" parent="@style/yi" />
+    <style name="a2" parent="@android:style/Widget.Holo.Spinner" />
+    <style name="yf" parent="@style/du">
+        <item name="android:borderlessButtonStyle">@style/um</item>
+        <item name="android:buttonBarStyle">@style/us</item>
+        <item name="android:windowCloseOnTouchOutside">@bool/g</item>
+    </style>
+    <style name="yg" parent="@style/dw">
+        <item name="android:borderlessButtonStyle">@style/um</item>
+        <item name="android:buttonBarStyle">@style/us</item>
+        <item name="android:windowCloseOnTouchOutside">@bool/g</item>
+    </style>
+    <style name="yh" parent="@android:style/Theme.Holo">
+        <item name="android:colorForeground">@color/gg</item>
+        <item name="android:colorBackground">@color/b_</item>
+        <item name="android:backgroundDimAmount">0.6</item>
+        <item name="android:disabledAlpha">@dimen/k1</item>
+        <item name="android:textAppearance">@style/qp</item>
+        <item name="android:textAppearanceInverse">@style/qz</item>
+        <item name="android:textColorPrimary">@color/rc</item>
+        <item name="android:textColorPrimaryDisableOnly">@color/ra</item>
+        <item name="android:textColorSecondary">@color/rf</item>
+        <item name="android:textColorPrimaryInverse">@color/rd</item>
+        <item name="android:textColorSecondaryInverse">@color/rg</item>
+        <item name="android:textColorHintInverse">@color/ie</item>
+        <item name="android:textAppearanceLarge">@style/r0</item>
+        <item name="android:textAppearanceMedium">@style/r6</item>
+        <item name="android:textAppearanceSmall">@style/ra</item>
+        <item name="android:textAppearanceLargeInverse">@style/r1</item>
+        <item name="android:textAppearanceMediumInverse">@style/r7</item>
+        <item name="android:textAppearanceSmallInverse">@style/rb</item>
+        <item name="android:windowBackground">@color/b_</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:textColorHighlight">@color/i_</item>
+        <item name="android:textColorHint">@color/id</item>
+        <item name="android:textColorLink">?d3</item>
+        <item name="android:colorForegroundInverse">@color/gh</item>
+        <item name="android:textColorTertiary">@color/rf</item>
+        <item name="android:textColorTertiaryInverse">@color/rg</item>
+        <item name="android:listChoiceIndicatorSingle">@drawable/k</item>
+        <item name="android:listChoiceIndicatorMultiple">@drawable/h</item>
+        <item name="android:colorBackgroundCacheHint">@color/sj</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:textColorAlertDialogListItem">@color/rc</item>
+        <item name="android:actionModeCutDrawable">?bo</item>
+        <item name="android:actionModeCopyDrawable">?bp</item>
+        <item name="android:actionModePasteDrawable">?bq</item>
+        <item name="android:buttonBarStyle">?c6</item>
+        <item name="android:buttonBarButtonStyle">?c7</item>
+        <item name="android:textColorHighlightInverse">@color/ia</item>
+        <item name="android:textColorLinkInverse">?d3</item>
+        <item name="c8">?android:selectableItemBackground</item>
+    </style>
+    <style name="yi" parent="@android:style/Theme.Holo.Light">
+        <item name="android:colorForeground">@color/gh</item>
+        <item name="android:colorBackground">@color/ba</item>
+        <item name="android:backgroundDimAmount">0.6</item>
+        <item name="android:disabledAlpha">@dimen/k2</item>
+        <item name="android:textAppearance">@style/qp</item>
+        <item name="android:textAppearanceInverse">@style/qz</item>
+        <item name="android:textColorPrimary">@color/rd</item>
+        <item name="android:textColorPrimaryDisableOnly">@color/rb</item>
+        <item name="android:textColorSecondary">@color/rg</item>
+        <item name="android:textColorPrimaryInverse">@color/rc</item>
+        <item name="android:textColorSecondaryInverse">@color/rf</item>
+        <item name="android:textColorHintInverse">@color/id</item>
+        <item name="android:textAppearanceLarge">@style/r0</item>
+        <item name="android:textAppearanceMedium">@style/r6</item>
+        <item name="android:textAppearanceSmall">@style/ra</item>
+        <item name="android:textAppearanceLargeInverse">@style/r1</item>
+        <item name="android:textAppearanceMediumInverse">@style/r7</item>
+        <item name="android:textAppearanceSmallInverse">@style/rb</item>
+        <item name="android:windowBackground">@color/ba</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:textColorHighlight">@color/ia</item>
+        <item name="android:textColorHint">@color/ie</item>
+        <item name="android:textColorLink">?d3</item>
+        <item name="android:colorForegroundInverse">@color/gg</item>
+        <item name="android:textColorTertiary">@color/rg</item>
+        <item name="android:textColorTertiaryInverse">@color/rf</item>
+        <item name="android:listChoiceIndicatorSingle">@drawable/k</item>
+        <item name="android:listChoiceIndicatorMultiple">@drawable/h</item>
+        <item name="android:textColorPrimaryInverseDisableOnly">@color/ra</item>
+        <item name="android:colorBackgroundCacheHint">@color/sk</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:textColorAlertDialogListItem">@color/rd</item>
+        <item name="android:actionModeCutDrawable">?bo</item>
+        <item name="android:actionModeCopyDrawable">?bp</item>
+        <item name="android:actionModePasteDrawable">?bq</item>
+        <item name="android:buttonBarStyle">?c6</item>
+        <item name="android:buttonBarButtonStyle">?c7</item>
+        <item name="android:textColorHighlightInverse">@color/i_</item>
+        <item name="android:textColorLinkInverse">?d3</item>
+        <item name="c8">?android:selectableItemBackground</item>
+    </style>
+</resources>

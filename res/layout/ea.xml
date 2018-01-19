@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout style="@style/NavPage"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:scrollbars="none" style="@style/MMScroll">
+        <LinearLayout android:gravity="center_horizontal" android:paddingLeft="@dimen/df" android:paddingTop="@dimen/gf" android:paddingRight="@dimen/df" android:paddingBottom="@dimen/gf" style="@style/MMBody">
+            <ImageView android:id="@id/wb" android:paddingBottom="@dimen/gf" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@raw/mobile_unbind_icon" />
+            <TextView android:textSize="@dimen/bp" android:textColor="@color/lb" android:gravity="center" android:id="@id/wc" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/gb" android:maxLines="4" android:singleLine="false" android:lineSpacingExtra="4.0dip" style="@style/MMPreferenceTextLarge" />
+            <TextView android:textSize="@dimen/g2" android:textColor="@color/if" android:gravity="center" android:id="@id/wd" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/gf" android:maxLines="4" android:singleLine="false" android:lineSpacingExtra="4.0dip" style="@style/MMPreferenceTextLarge" />
+            <Button android:id="@id/we" android:layout_marginBottom="@dimen/gb" style="@style/MMSolidGreenLargeButton" />
+            <Button android:id="@id/wf" android:layout_marginBottom="@dimen/i7" style="@style/MMSolidWhiteLargeButton" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

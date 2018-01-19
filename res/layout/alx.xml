@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" style="@style/NavPage"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:wallet="http://schemas.android.com/apk/res-auto">
+    <TextView android:id="@id/doa" android:layout_marginLeft="@dimen/gb" android:layout_marginTop="@dimen/ge" android:layout_marginRight="@dimen/gb" android:layout_marginBottom="@dimen/gb" android:text="@string/e3j" style="@style/WalletInputTips" />
+    <com.tencent.mm.wallet_core.ui.formview.EditHintPasswdView android:id="@id/cck" wallet:format="dy" style="@style/MMWalletPwdEt" />
+    <TextView android:id="@id/dob" android:layout_marginLeft="@dimen/gb" android:layout_marginRight="@dimen/gb" android:text="@string/e3r" style="@style/WalletInputTips" />
+    <TextView android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/doc" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/gb" android:layout_marginTop="20.0dip" android:layout_marginRight="@dimen/gb" android:text="@string/e3m" android:drawableLeft="@drawable/a2t" android:drawablePadding="5.0dip" />
+    <TextView android:id="@id/dod" android:visibility="gone" android:layout_width="fill_parent" android:layout_marginLeft="@dimen/gb" android:layout_marginTop="20.0dip" android:layout_marginRight="@dimen/gb" android:text="@string/lw" style="@style/MMWalletBtn" />
+    <include layout="@layout/cft_keyboard_layout" />
+</LinearLayout>

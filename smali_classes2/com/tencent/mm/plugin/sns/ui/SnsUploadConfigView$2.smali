@@ -1,0 +1,80 @@
+.class final Lcom/tencent/mm/plugin/sns/ui/SnsUploadConfigView$2;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements Ljava/lang/Runnable;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lcom/tencent/mm/plugin/sns/ui/SnsUploadConfigView;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x0
+    name = null
+.end annotation
+
+
+# instance fields
+.field final synthetic qxI:Lcom/tencent/mm/plugin/sns/ui/SnsUploadConfigView;
+
+.field final synthetic qxJ:Lcom/tencent/mm/g/a/fo;
+
+
+# direct methods
+.method constructor <init>(Lcom/tencent/mm/plugin/sns/ui/SnsUploadConfigView;Lcom/tencent/mm/g/a/fo;)V
+    .locals 4
+
+    .prologue
+    const-wide v2, 0x7e440000000L
+
+    const v0, 0xfc88
+
+    .line 490
+    iput-object p1, p0, Lcom/tencent/mm/plugin/sns/ui/SnsUploadConfigView$2;->qxI:Lcom/tencent/mm/plugin/sns/ui/SnsUploadConfigView;
+
+    iput-object p2, p0, Lcom/tencent/mm/plugin/sns/ui/SnsUploadConfigView$2;->qxJ:Lcom/tencent/mm/g/a/fo;
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    invoke-static {v2, v3, v0}, Lcom/tencent/gmtrace/GMTrace;->i(JI)V
+
+    invoke-static {v2, v3, v0}, Lcom/tencent/gmtrace/GMTrace;->o(JI)V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final run()V
+    .locals 4
+
+    .prologue
+    const-wide v2, 0x7e448000000L
+
+    const v1, 0xfc89
+
+    invoke-static {v2, v3, v1}, Lcom/tencent/gmtrace/GMTrace;->i(JI)V
+
+    .line 494
+    iget-object v0, p0, Lcom/tencent/mm/plugin/sns/ui/SnsUploadConfigView$2;->qxJ:Lcom/tencent/mm/g/a/fo;
+
+    iget-object v0, v0, Lcom/tencent/mm/g/a/fo;->eKu:Lcom/tencent/mm/g/a/fo$b;
+
+    iget-boolean v0, v0, Lcom/tencent/mm/g/a/fo$b;->eFx:Z
+
+    if-nez v0, :cond_0
+
+    .line 495
+    iget-object v0, p0, Lcom/tencent/mm/plugin/sns/ui/SnsUploadConfigView$2;->qxI:Lcom/tencent/mm/plugin/sns/ui/SnsUploadConfigView;
+
+    invoke-static {v0}, Lcom/tencent/mm/plugin/sns/ui/SnsUploadConfigView;->k(Lcom/tencent/mm/plugin/sns/ui/SnsUploadConfigView;)V
+
+    .line 497
+    :cond_0
+    invoke-static {v2, v3, v1}, Lcom/tencent/gmtrace/GMTrace;->o(JI)V
+
+    return-void
+.end method

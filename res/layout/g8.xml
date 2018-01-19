@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:background="@color/l3" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:orientation="horizontal" android:id="@id/a64" android:background="#fff5f5f5" android:layout_width="fill_parent" android:layout_height="48.0dip" android:layout_alignParentBottom="true">
+        <View android:id="@id/a65" android:background="#ffbcbcbc" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+        <TextView android:textSize="16.0dip" android:textColor="#ffaaaaaa" android:gravity="center_vertical" android:id="@id/a66" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="10.0dip" android:text="@string/a5d" android:layout_below="@id/a65" />
+        <TextView android:textSize="16.0dip" android:textColor="#ff576b95" android:gravity="center_vertical" android:id="@id/a67" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="5.0dip" android:text="@string/a5l" android:layout_toRightOf="@id/a66" android:layout_below="@id/a65" />
+        <TextView android:textSize="13.0dip" android:textColor="@color/r5" android:gravity="center" android:id="@id/a68" android:background="@drawable/c9" android:layout_width="60.0dip" android:layout_height="30.0dip" android:layout_marginRight="12.0dip" android:text="@string/a5j" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/zc" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <TextView android:textSize="@dimen/h7" android:textColor="@color/db" android:id="@id/zd" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/a6n" android:layout_centerInParent="true" />
+    </RelativeLayout>
+    <ListView android:id="@id/a69" android:background="#ffeeeeee" android:visibility="visible" android:layout_height="fill_parent" android:transcriptMode="disabled" android:layout_above="@id/a64" style="@style/CardMMList" />
+</RelativeLayout>

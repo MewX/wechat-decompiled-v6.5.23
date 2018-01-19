@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:background="@color/l3" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_alignParentTop="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:paddingLeft="@dimen/h6" android:paddingTop="@dimen/gx" android:paddingRight="@dimen/h6" style="@style/AddressBody">
+        <TextView android:id="@id/dds" android:visibility="gone" android:text="@string/dy" style="@style/AddressInputTips" />
+        <com.tencent.mm.ui.base.MaxListView android:id="@id/de3" android:background="@null" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="wrap_content" android:listSelector="@android:color/transparent" android:divider="#00000000" android:dividerHeight="0.0dip" android:choiceMode="singleChoice" />
+        <include android:id="@id/de4" android:visibility="gone" layout="@layout/wallet_addr_select_item" />
+        <TextView android:textSize="@dimen/bw" android:textColor="@color/lb" android:gravity="center|left" android:id="@id/de5" android:background="@drawable/f0" android:paddingLeft="@dimen/i1" android:paddingRight="@dimen/i1" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/h5" android:text="@string/dt" />
+    </LinearLayout>
+</ScrollView>

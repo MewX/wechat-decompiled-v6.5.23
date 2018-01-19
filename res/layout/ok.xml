@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:scrollbars="none" style="@style/NavPage"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" style="@style/NavPage">
+        <com.tencent.mm.plugin.emoji.ui.v2.EmojiStoreV2RewardBannerView android:id="@id/avh" android:background="@drawable/sb" android:layout_width="fill_parent" android:layout_height="wrap_content" android:scaleType="fitXY" />
+        <LinearLayout android:orientation="vertical" android:id="@id/avi" android:padding="@dimen/gj" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textStyle="bold" android:textColor="@color/bi" android:layout_gravity="left" android:id="@id/avj" android:paddingTop="@dimen/i6" android:paddingBottom="@dimen/i6" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/asj" android:drawableLeft="@drawable/al8" style="@style/MMFontTitleInList" />
+            <com.tencent.mm.plugin.emoji.ui.widget.MMCopiableTextView android:textSize="@dimen/g2" android:textColor="#ff6c6c6c" android:id="@id/avk" android:background="@drawable/sg" android:paddingTop="@dimen/i6" android:paddingBottom="@dimen/i6" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <TextView android:textSize="@dimen/g2" android:textColor="#ff6c6c6c" android:id="@id/avl" android:paddingTop="@dimen/i6" android:paddingBottom="@dimen/i6" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

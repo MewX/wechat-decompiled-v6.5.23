@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="#fff0eff4" android:paddingTop="@dimen/gb" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:paddingBottom="@dimen/br" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/h6" style="@style/MMFullLineItem">
+        <LinearLayout android:gravity="center|left" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/i0">
+            <TextView android:textSize="@dimen/h7" android:textColor="@color/lb" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/h6" android:text="@string/eam" android:layout_weight="1.0" />
+            <com.tencent.mm.ui.widget.MMSwitchBtn android:id="@id/drt" android:layout_width="@dimen/ic" android:layout_height="@dimen/i_" />
+        </LinearLayout>
+        <TextView android:textSize="@dimen/g2" android:textColor="@color/if" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/eal" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:paddingBottom="@dimen/br" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/h6" style="@style/MMFullLineItem">
+        <LinearLayout android:gravity="center|left" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/i0">
+            <TextView android:textSize="@dimen/h7" android:textColor="@color/lb" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/h6" android:text="@string/eai" android:layout_weight="1.0" />
+            <com.tencent.mm.ui.widget.MMSwitchBtn android:id="@id/dru" android:layout_width="@dimen/ic" android:layout_height="@dimen/i_" />
+        </LinearLayout>
+        <TextView android:textSize="@dimen/g2" android:textColor="@color/if" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/eal" />
+    </LinearLayout>
+    <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/h6">
+        <Button android:id="@id/drv" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/MMSolidWhiteLargeButton" />
+    </LinearLayout>
+    <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/h6">
+        <Button android:id="@id/drw" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/MMSolidWhiteLargeButton" />
+    </LinearLayout>
+</LinearLayout>

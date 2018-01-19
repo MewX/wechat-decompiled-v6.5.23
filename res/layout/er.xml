@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.tencent.mm.plugin.bottle.ui.OpenBottleUI android:paddingLeft="20.0dip" android:paddingTop="20.0dip" android:paddingRight="20.0dip" android:paddingBottom="20.0dip" style="@style/bottleFloatFrame"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="100.0dip">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <ImageView android:id="@id/xs" android:background="@drawable/y3" android:layout_width="64.0dip" android:layout_height="64.0dip" />
+            <LinearLayout android:orientation="vertical" android:paddingTop="5.0dip" android:paddingBottom="5.0dip" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="9.0dip" android:layout_marginRight="16.0dip" android:layout_weight="1.0">
+                <TextView android:textSize="@dimen/bw" android:textColor="@color/r5" android:ellipsize="end" android:id="@id/xt" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="3.0dip" android:singleLine="true" />
+                <TextView android:textSize="@dimen/g2" android:textColor="@color/iz" android:ellipsize="end" android:id="@id/xu" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="3.0dip" android:singleLine="true" />
+            </LinearLayout>
+            <TextView android:textSize="@dimen/bw" android:textColor="#ff225a8f" android:ellipsize="end" android:id="@id/xv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="11.0dip" android:text="@string/agt" android:singleLine="true" />
+        </LinearLayout>
+        <TextView android:id="@id/xw" android:visibility="gone" android:layout_marginTop="10.0dip" style="@style/bottleStationery" />
+        <LinearLayout android:gravity="center_vertical" android:layout_gravity="center_horizontal" android:id="@id/xx" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="50.0dip">
+            <FrameLayout android:id="@id/xy" android:background="@drawable/bx" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <ImageView android:layout_gravity="center_vertical" android:id="@id/xz" android:background="@drawable/vv" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            </FrameLayout>
+            <TextView android:textSize="10.0dip" android:textColor="@color/r5" android:id="@id/y0" android:focusable="false" android:focusableInTouchMode="false" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:gravity="bottom" android:layout_gravity="bottom" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <Button android:id="@id/y1" android:layout_marginRight="5.0dip" android:text="@string/a1n" style="@style/bottleOpenBtnText" />
+        <Button android:id="@id/y2" android:layout_marginLeft="5.0dip" android:text="@string/a1m" style="@style/bottleOpenBtnText" />
+    </LinearLayout>
+</com.tencent.mm.plugin.bottle.ui.OpenBottleUI>

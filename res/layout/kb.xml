@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/r5" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ListView android:id="@id/ahi" android:background="@color/r5" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" style="@style/MMList" />
+    <LinearLayout android:id="@id/rm" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <TextView android:textColor="#ffaaaaaa" android:gravity="center" android:id="@id/ahj" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="50.0dip" android:text="@string/acz" />
+    </LinearLayout>
+    <View android:background="#ffdfdfdf" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+    <RelativeLayout android:background="#fffcfcfc" android:layout_width="fill_parent" android:layout_height="48.0dip">
+        <TextView android:textColor="#ffaaaaaa" android:id="@id/ahh" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+        <Button android:textSize="@dimen/g2" android:id="@id/ahg" android:layout_width="wrap_content" android:layout_height="30.0dip" android:layout_marginRight="12.0dip" android:minWidth="60.0dip" android:text="@string/any" android:layout_alignParentRight="true" android:layout_centerVertical="true" style="@style/MMSolidRedLargeButton" />
+        <CheckBox android:id="@id/rs" android:background="@drawable/jh" android:focusable="false" android:focusableInTouchMode="false" android:clickable="false" android:layout_width="@dimen/co" android:layout_height="@dimen/co" android:layout_marginLeft="12.0dip" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+        <TextView android:textColor="#ffaaaaaa" android:id="@id/rt" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:text="@string/e6" android:layout_toRightOf="@id/rs" android:layout_centerVertical="true" />
+        <View android:id="@id/ru" android:layout_width="72.0dip" android:layout_height="fill_parent" />
+    </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/gf" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:id="@id/j9" android:background="@drawable/a9" android:clickable="true" android:layout_width="wrap_content" android:layout_height="fill_parent">
+        <ImageView android:id="@id/j_" android:background="@null" android:paddingLeft="@dimen/i1" android:paddingRight="@dimen/i1" android:layout_width="wrap_content" android:layout_height="fill_parent" android:contentDescription="@string/em" />
+    </LinearLayout>
+    <RelativeLayout android:id="@id/ja" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginLeft="0.0dip" android:layout_weight="1.0">
+        <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/jb" android:paddingRight="24.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent">
+            <TextView android:textSize="@dimen/bp" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/jc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" />
+            <TextView android:textSize="@dimen/g2" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/jd" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" />
+        </LinearLayout>
+        <ProgressBar android:id="@id/je" android:padding="3.0dip" android:visibility="gone" android:layout_width="24.0dip" android:layout_height="24.0dip" android:layout_alignRight="@id/jb" android:layout_centerInParent="true" style="@style/mediumCustomProgressBar" />
+    </RelativeLayout>
+    <ImageButton android:id="@id/jf" android:background="@drawable/a9" android:visibility="gone" android:layout_width="48.0dip" android:layout_height="fill_parent" />
+    <com.tencent.mm.plugin.appbrand.widget.AppBrandOptionButton android:id="@id/jg" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="fill_parent" />
+</LinearLayout>

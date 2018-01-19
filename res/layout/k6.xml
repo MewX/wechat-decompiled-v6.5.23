@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:id="@id/pl" android:paddingLeft="@dimen/c0" android:paddingRight="@dimen/c0" style="@style/MMListItem">
+        <com.tencent.mm.ui.base.MaskLayout android:id="@id/ah1" android:layout_width="@dimen/h1" android:layout_height="wrap_content">
+            <ImageView android:id="@id/in" android:layout_width="@dimen/gz" android:layout_height="@dimen/gz" android:src="@raw/default_avatar" android:layout_centerVertical="true" />
+            <ImageView android:id="@id/ah2" android:visibility="gone" android:layout_width="25.0dip" android:layout_height="wrap_content" android:src="@drawable/a56" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" />
+        </com.tencent.mm.ui.base.MaskLayout>
+        <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:ellipsize="end" android:gravity="center|left" android:id="@id/ah3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/br" android:text="{nick}" android:singleLine="true" style="@style/MMFontTitleInList" />
+            <TextView android:textSize="@dimen/g2" android:textColor="@color/mu" android:ellipsize="end" android:gravity="center|left" android:id="@id/ah4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/br" android:singleLine="true" style="@style/MMFontTitleInList" />
+        </LinearLayout>
+        <View android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_weight="3.0" />
+        <ImageButton android:layout_gravity="center_vertical" android:id="@id/ah5" android:background="@null" android:focusableInTouchMode="false" android:layout_width="20.0dip" android:layout_height="20.0dip" android:src="@raw/checkbox_unselected" />
+    </LinearLayout>
+</merge>

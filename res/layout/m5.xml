@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:id="@id/aoh" android:layout_width="fill_parent" android:layout_height="@dimen/ga" android:baselineAligned="false" android:minHeight="@dimen/ga"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_gravity="center_vertical" android:layout_width="@dimen/h0" android:layout_height="@dimen/h0" android:layout_marginLeft="@dimen/c0" android:layout_marginRight="@dimen/br">
+        <ImageView android:id="@id/jz" android:layout_width="@dimen/gy" android:layout_height="@dimen/gy" android:src="@raw/default_avatar" android:layout_centerVertical="true" />
+        <TextView android:id="@id/io" android:visibility="gone" android:layout_marginRight="@dimen/i4" android:layout_alignParentTop="true" android:layout_alignParentRight="true" style="@style/UnreadCountTipsStyle" />
+        <ImageView android:id="@id/aoi" android:visibility="gone" android:layout_marginTop="@dimen/h8" android:layout_marginRight="@dimen/br" android:layout_alignParentTop="true" android:layout_alignParentRight="true" style="@style/UnreadDotStyle" />
+    </RelativeLayout>
+    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginRight="@dimen/c0">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="23.0dip">
+            <LinearLayout android:gravity="top" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                <com.tencent.mm.ui.base.NoMeasuredTextView android:textSize="@dimen/h7" android:textColor="@color/lb" android:gravity="center|left" android:id="@id/aoj" android:tag="nickname_tv" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/MMFontTitleInList" />
+            </LinearLayout>
+            <com.tencent.mm.ui.base.NoMeasuredTextView android:textSize="@dimen/g2" android:textColor="@color/iy" android:gravity="center|right" android:id="@id/aok" android:tag="update_time_tv" android:layout_width="@dimen/cy" android:layout_height="wrap_content" style="@style/MMFontTimeInList" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="3.0dip" android:minHeight="21.0dip">
+            <LinearLayout android:orientation="horizontal" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                <ImageView android:gravity="center|left" android:id="@id/aor" android:layout_width="14.0dip" android:layout_height="fill_parent" android:layout_marginRight="@dimen/gk" />
+                <com.tencent.mm.ui.base.NoMeasuredTextView android:textSize="@dimen/i5" android:textColor="@color/it" android:ellipsize="end" android:gravity="center|left" android:id="@id/aol" android:tag="last_msg_tv" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="{lastmsg}" style="@style/MMFontTipInList" />
+            </LinearLayout>
+            <LinearLayout android:gravity="bottom|center|right" android:layout_width="40.0dip" android:layout_height="fill_parent">
+                <ImageView android:gravity="right" android:layout_gravity="center|right" android:id="@id/aom" android:visibility="gone" android:layout_width="16.0dip" android:layout_height="16.0dip" android:src="@raw/chatlist_multitalk_icon" android:contentDescription="@string/ek" />
+                <ImageView android:gravity="right" android:layout_gravity="center|right" android:id="@id/aon" android:paddingLeft="@dimen/i4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@raw/chat_mute_notify_normal" />
+                <ImageView android:gravity="center|right" android:layout_gravity="center_vertical" android:id="@id/aoo" android:paddingLeft="@dimen/i4" android:layout_width="16.0dip" android:layout_height="16.0dip" android:src="@raw/talk_room_mic_idle" android:contentDescription="@string/ek" />
+                <ImageView android:gravity="center|right" android:layout_gravity="center|right" android:id="@id/aop" android:paddingLeft="@dimen/i4" android:visibility="gone" android:layout_width="24.0dip" android:layout_height="24.0dip" android:src="@raw/location_share_icon" android:contentDescription="@string/ek" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

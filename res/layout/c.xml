@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="@drawable/f0" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="80.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/f6" android:layout_width="@dimen/jb" android:layout_height="@dimen/jb" android:src="@raw/aa_record_default_icon" android:scaleType="fitXY" />
+    <LinearLayout android:gravity="center|left" android:orientation="vertical" android:id="@id/f7" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="13.0dip" android:layout_marginRight="2.0dip" android:layout_weight="1.0">
+        <TextView android:textSize="@dimen/jd" android:textColor="@color/bi" android:ellipsize="end" android:id="@id/f8" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" />
+        <TextView android:textSize="@dimen/jc" android:textColor="@color/v" android:ellipsize="end" android:id="@id/f9" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" />
+        <TextView android:textSize="@dimen/jc" android:textColor="@color/v" android:ellipsize="end" android:id="@id/f_" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center|right" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10.0dip">
+        <TextView android:textSize="@dimen/ja" android:textColor="@color/bi" android:id="@id/fa" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <TextView android:textSize="@dimen/jc" android:textColor="@color/v" android:id="@id/fb" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+</LinearLayout>

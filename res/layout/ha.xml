@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/g2" android:textColor="@color/if" android:id="@id/iq" android:paddingLeft="@dimen/h6" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="A" style="@style/MMListCatalog" />
+    <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/MMFullLineItem">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/a9i" android:background="@drawable/f0" android:layout_width="fill_parent" android:layout_height="@dimen/cu">
+            <com.tencent.mm.ui.base.MaskLayout android:id="@id/a9j" android:layout_width="@dimen/cs" android:layout_height="@dimen/cs">
+                <ImageView android:id="@id/in" android:layout_width="@dimen/cr" android:layout_height="@dimen/cr" android:src="@raw/default_avatar" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+            </com.tencent.mm.ui.base.MaskLayout>
+            <com.tencent.mm.ui.tools.MMTruncTextView android:id="@id/a9k" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/br" android:text="{nick}" android:singleLine="true" android:layout_weight="1.0" style="@style/MMFontTitleInList" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

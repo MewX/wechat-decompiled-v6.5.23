@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/NavPage"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:background="@drawable/afe" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/gb" android:layout_marginTop="@dimen/ge" android:layout_marginRight="@dimen/gb">
+        <com.tencent.mm.ui.widget.MMEditText android:textColor="@color/lb" android:textColorHint="@color/ic" android:gravity="top" android:id="@id/in" android:background="@null" android:layout_width="0.0dip" android:layout_height="wrap_content" android:singleLine="false" android:layout_weight="1.0" style="@style/MMEditText" />
+        <TextView android:textSize="@dimen/g2" android:textColor="@color/if" android:layout_gravity="bottom|center|right" android:id="@id/ao7" android:padding="@dimen/i6" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center_horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/gf">
+        <TextView android:textSize="@dimen/h7" android:textColor="@color/q3" android:layout_gravity="bottom|center|right" android:id="@id/asf" android:padding="@dimen/i6" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/d64" />
+    </LinearLayout>
+</LinearLayout>

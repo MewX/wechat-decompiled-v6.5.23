@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="b">70.0dip</dimen>
+    <dimen name="c">130.0dip</dimen>
+    <dimen name="d">40.0dip</dimen>
+    <dimen name="e">42.0dip</dimen>
+    <dimen name="f">16.0dip</dimen>
+    <dimen name="g">30.0dip</dimen>
+    <dimen name="h">30.0dip</dimen>
+    <dimen name="i">20.0dip</dimen>
+    <dimen name="j">10.0dip</dimen>
+    <dimen name="k">60.0dip</dimen>
+    <dimen name="l">70.0dip</dimen>
+</resources>

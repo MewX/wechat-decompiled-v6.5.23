@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:scrollbars="none" android:fadingEdge="none" android:layout_width="fill_parent" android:layout_height="0.0dip" android:fillViewport="true" android:layout_weight="1.0">
+        <LinearLayout android:orientation="vertical" android:id="@id/bc9" android:background="@color/nn" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <ImageView android:id="@id/bc_" android:layout_width="fill_parent" android:layout_height="256.0dip" android:scaleType="centerCrop" />
+                <LinearLayout android:layout_gravity="bottom" android:orientation="horizontal" android:padding="@dimen/h6" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <ImageView android:id="@id/q2" android:layout_width="@dimen/gc" android:layout_height="@dimen/gc" />
+                    <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bv" android:layout_weight="1.0">
+                        <TextView android:textSize="@dimen/bw" android:textColor="@color/r5" android:ellipsize="end" android:id="@id/q4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+                        <TextView android:textSize="@dimen/g2" android:textColor="@color/if" android:ellipsize="end" android:id="@id/bca" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/i1" android:singleLine="true" />
+                    </LinearLayout>
+                </LinearLayout>
+            </FrameLayout>
+            <com.tencent.mm.plugin.game.ui.GameDetailAutoScrollView android:orientation="vertical" android:id="@id/bcb" android:background="@color/r5" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <LinearLayout android:orientation="horizontal" android:id="@id/bcc" android:background="@color/r5" android:padding="@dimen/h6" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <LinearLayout android:orientation="vertical" android:background="@color/r5" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <LinearLayout android:orientation="vertical" android:id="@id/bcd" android:padding="@dimen/h6" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+                <View android:background="@color/h7" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginLeft="@dimen/h6" android:layout_marginRight="@dimen/h6" />
+                <TextView android:textSize="@dimen/h7" android:textColor="@color/h9" android:gravity="center_vertical" android:id="@id/bce" android:background="@drawable/h0" android:padding="@dimen/h6" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="48.0dip" android:drawableRight="@raw/game_more_icon" />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:id="@id/bcf" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:id="@id/bcg" style="@style/MMGameCenterSectionTitle" />
+                <LinearLayout android:orientation="vertical" android:background="@color/r5" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <LinearLayout android:orientation="vertical" android:id="@id/bch" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+                    <ImageView android:id="@id/bci" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginLeft="@dimen/h6" android:layout_marginRight="@dimen/h6" android:src="@color/h7" />
+                    <LinearLayout android:gravity="center_vertical" android:id="@id/bcj" android:background="@drawable/h0" android:padding="@dimen/h6" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="48.0dip" android:drawableRight="@raw/game_more_icon">
+                        <TextView android:textSize="@dimen/h7" android:textColor="@color/h9" android:id="@id/bck" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" />
+                        <TextView android:textSize="@dimen/h7" android:textColor="@color/if" android:id="@id/bcl" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                        <ImageView android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@raw/game_more_icon" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:id="@id/bcm" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:id="@id/bcn" style="@style/MMGameCenterSectionTitle" />
+                <LinearLayout android:orientation="vertical" android:background="@color/r5" android:padding="@dimen/h6" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <com.tencent.mm.ui.base.MMSmoothHorizontalScrollView android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/bv" android:overScrollMode="never">
+                        <com.tencent.mm.plugin.game.ui.GameMediaList android:orientation="horizontal" android:id="@id/bco" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+                    </com.tencent.mm.ui.base.MMSmoothHorizontalScrollView>
+                    <TextView android:textSize="@dimen/h7" android:textColor="@color/if" android:id="@id/bcp" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="3" />
+                    <TextView android:textSize="@dimen/h7" android:textColor="@color/h9" android:id="@id/bcq" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/bcc" />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:id="@id/bcr" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:id="@id/bcs" style="@style/MMGameCenterSectionTitle" />
+                <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="@drawable/n_" android:padding="@dimen/h6" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <ImageView android:layout_gravity="center_vertical" android:id="@id/bct" android:padding="2.0dip" android:layout_width="@dimen/h4" android:layout_height="@dimen/h4" android:layout_marginRight="4.0dip" android:scaleType="fitXY" />
+                    <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                        <TextView android:textSize="@dimen/h7" android:textColor="@color/lb" android:ellipsize="end" android:id="@id/bcu" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+                        <TextView android:textSize="@dimen/g2" android:textColor="@color/if" android:ellipsize="end" android:id="@id/bcv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+                    </LinearLayout>
+                    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@raw/game_more_icon" android:scaleType="fitCenter" />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:id="@id/bcw" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:id="@id/bcx" style="@style/MMGameCenterSectionTitle" />
+                <LinearLayout android:orientation="vertical" android:background="@color/r5" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <LinearLayout android:orientation="vertical" android:id="@id/bcy" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+                    <TextView android:textSize="@dimen/h7" android:textColor="@color/h9" android:gravity="center_vertical" android:id="@id/bcz" android:background="@drawable/h0" android:padding="@dimen/h6" android:layout_width="fill_parent" android:layout_height="48.0dip" android:drawableRight="@raw/game_more_icon" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <View android:background="#ffdfdfdd" android:layout_width="fill_parent" android:layout_height="1.0px" />
+        <FrameLayout android:orientation="vertical" android:background="@color/r5" android:padding="@dimen/i1" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <Button android:id="@id/bd0" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:minHeight="48.0dip" android:text="@string/bd5" style="@style/MMSolidGreenLargeButton" />
+            <com.tencent.mm.plugin.game.widget.TextProgressBar android:layout_gravity="center_vertical" android:id="@id/bd1" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:max="100" android:progress="50" android:minHeight="48.0dip" style="@style/GameDownloadProgress" />
+        </FrameLayout>
+    </LinearLayout>
+</LinearLayout>

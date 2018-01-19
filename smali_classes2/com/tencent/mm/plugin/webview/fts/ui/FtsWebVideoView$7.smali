@@ -1,0 +1,85 @@
+.class final Lcom/tencent/mm/plugin/webview/fts/ui/FtsWebVideoView$7;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements Landroid/view/View$OnClickListener;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingMethod;
+    value = Lcom/tencent/mm/plugin/webview/fts/ui/FtsWebVideoView;->init(Landroid/content/Context;)V
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x0
+    name = null
+.end annotation
+
+
+# instance fields
+.field final synthetic rVS:Lcom/tencent/mm/plugin/webview/fts/ui/FtsWebVideoView;
+
+
+# direct methods
+.method constructor <init>(Lcom/tencent/mm/plugin/webview/fts/ui/FtsWebVideoView;)V
+    .locals 4
+
+    .prologue
+    const-wide v2, 0x12a168000000L
+
+    const v0, 0x2542d
+
+    .line 174
+    iput-object p1, p0, Lcom/tencent/mm/plugin/webview/fts/ui/FtsWebVideoView$7;->rVS:Lcom/tencent/mm/plugin/webview/fts/ui/FtsWebVideoView;
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    invoke-static {v2, v3, v0}, Lcom/tencent/gmtrace/GMTrace;->i(JI)V
+
+    invoke-static {v2, v3, v0}, Lcom/tencent/gmtrace/GMTrace;->o(JI)V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final onClick(Landroid/view/View;)V
+    .locals 6
+
+    .prologue
+    const-wide v4, 0x12a170000000L
+
+    const v2, 0x2542e
+
+    invoke-static {v4, v5, v2}, Lcom/tencent/gmtrace/GMTrace;->i(JI)V
+
+    .line 177
+    iget-object v0, p0, Lcom/tencent/mm/plugin/webview/fts/ui/FtsWebVideoView$7;->rVS:Lcom/tencent/mm/plugin/webview/fts/ui/FtsWebVideoView;
+
+    invoke-static {v0}, Lcom/tencent/mm/plugin/webview/fts/ui/FtsWebVideoView;->a(Lcom/tencent/mm/plugin/webview/fts/ui/FtsWebVideoView;)I
+
+    move-result v0
+
+    sget v1, Lcom/tencent/mm/plugin/webview/fts/ui/FtsWebVideoView$c;->rVY:I
+
+    if-ne v0, v1, :cond_0
+
+    .line 178
+    iget-object v0, p0, Lcom/tencent/mm/plugin/webview/fts/ui/FtsWebVideoView$7;->rVS:Lcom/tencent/mm/plugin/webview/fts/ui/FtsWebVideoView;
+
+    invoke-static {v0}, Lcom/tencent/mm/plugin/webview/fts/ui/FtsWebVideoView;->b(Lcom/tencent/mm/plugin/webview/fts/ui/FtsWebVideoView;)Z
+
+    .line 180
+    :cond_0
+    iget-object v0, p0, Lcom/tencent/mm/plugin/webview/fts/ui/FtsWebVideoView$7;->rVS:Lcom/tencent/mm/plugin/webview/fts/ui/FtsWebVideoView;
+
+    const/4 v1, 0x1
+
+    invoke-virtual {v0, v1}, Lcom/tencent/mm/plugin/webview/fts/ui/FtsWebVideoView;->start(Z)V
+
+    .line 181
+    invoke-static {v4, v5, v2}, Lcom/tencent/gmtrace/GMTrace;->o(JI)V
+
+    return-void
+.end method

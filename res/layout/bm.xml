@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/lp" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/lq" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ImageView android:id="@id/lr" android:layout_width="30.0dip" android:layout_height="30.0dip" android:src="@drawable/icon" />
+        <TextView android:textAppearance="@style/qj" android:id="@id/ls" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/gs" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@id/lt" android:layout_width="wrap_content" android:layout_height="@dimen/h4" android:layout_weight="1.0" />
+    <LinearLayout android:gravity="center_vertical" android:layout_gravity="center|right" android:orientation="horizontal" android:id="@id/lu" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <TextView android:textSize="15.0dip" android:textColor="@color/iz" android:id="@id/lv" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="2.0dip" android:text="@string/ag0" />
+        <ImageView android:layout_gravity="center|right" android:id="@id/lw" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/i4" android:src="@drawable/jw" />
+    </LinearLayout>
+</LinearLayout>

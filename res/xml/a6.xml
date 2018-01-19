@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res-auto">
+    <com.tencent.mm.pluginsdk.ui.preference.HelperHeaderPreference android:key="contact_info_header_helper" android:layout="@layout/a7w" />
+    <PreferenceSmallCategory />
+    <Preference android:title="@string/ahh" android:key="contact_info_go_to_sport" android:layout="@layout/a31" />
+    <Preference android:title="@string/ahg" android:key="contact_info_go_to_my_profile" android:layout="@layout/a31" />
+    <Preference android:title="@string/ahk" android:key="contact_info_invite_friend" android:layout="@layout/a31" />
+    <Preference android:title="@string/agm" android:key="contact_info_common_problem" android:layout="@layout/a31" />
+    <PreferenceSmallCategory />
+    <Preference android:persistent="false" android:title="@string/ajr" android:key="contact_info_record_data" android:defaultValue="true" android:layout="@layout/a31" />
+    <Preference android:title="@string/aiz" android:key="contact_info_privacy_and_notification" android:layout="@layout/a31" />
+    <CheckBoxPreference android:persistent="false" android:title="@string/alo" android:key="contact_info_top_sport" android:layout="@layout/a31" />
+    <CheckBoxPreference android:persistent="false" android:title="@string/aiv" android:key="contact_info_not_disturb" android:layout="@layout/a31" />
+    <Preference android:title="@string/agf" android:key="contact_info_clear_data" android:layout="@layout/a31" />
+    <PreferenceSmallCategory />
+    <Preference android:title="@string/czo" android:key="contact_info_sport_install" android:layout="@layout/xq" />
+    <Preference android:title="@string/czu" android:key="contact_info_sport_uninstall" android:layout="@layout/zo" />
+    <PreferenceCategory />
+</PreferenceScreen>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:id="@id/hd" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="0.0px" android:layout_height="0.0px" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/b94" android:layout_width="fill_parent" android:layout_height="48.0dip" android:layout_centerVertical="true">
+        <ImageView android:layout_gravity="center_vertical" android:id="@id/fx" android:layout_width="16.0dip" android:layout_height="16.0dip" android:layout_marginRight="8.699982dip" android:src="@raw/sos_search_icon" />
+        <TextView android:textSize="@dimen/h7" android:textColor="@color/ht" android:ellipsize="end" android:gravity="center" android:layout_gravity="center_vertical" android:id="@id/b95" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginRight="5.0dip" android:maxWidth="100.0dip" android:maxLines="1" />
+        <TextView android:textSize="@dimen/h7" android:textColor="@color/ht" android:ellipsize="end" android:gravity="center" android:layout_gravity="center_vertical" android:id="@id/b96" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginRight="5.0dip" android:maxWidth="100.0dip" android:maxLines="1" />
+        <TextView android:textSize="@dimen/h7" android:textColor="@color/ht" android:ellipsize="end" android:gravity="center" android:layout_gravity="center_vertical" android:id="@id/b97" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginRight="5.0dip" android:maxWidth="100.0dip" android:maxLines="1" />
+        <EditText android:textSize="16.0sp" android:ellipsize="end" android:id="@id/he" android:background="@null" android:paddingRight="@dimen/h4" android:layout_width="fill_parent" android:layout_height="fill_parent" android:minWidth="1024.0dip" android:hint="@string/o_" android:maxLines="1" android:inputType="text" android:imeOptions="actionSearch" />
+    </LinearLayout>
+    <LinearLayout android:gravity="right" android:id="@id/b98" android:background="@null" android:visibility="gone" android:layout_width="28.0dip" android:layout_height="28.0dip" android:layout_alignParentRight="true" android:layout_centerVertical="true">
+        <ImageButton android:layout_gravity="center|right" android:background="@null" android:visibility="visible" android:clickable="false" android:layout_width="14.0dip" android:layout_height="14.0dip" android:src="@drawable/ox" />
+    </LinearLayout>
+</RelativeLayout>

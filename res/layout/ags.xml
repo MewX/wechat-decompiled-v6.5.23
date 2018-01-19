@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/a4k" android:background="@color/pt" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageView android:id="@id/a3d" android:background="@color/bi" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <com.tencent.mm.plugin.sns.ui.OnlineVideoView android:id="@id/n2" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_centerInParent="true" />
+    </RelativeLayout>
+    <Button android:id="@id/d1k" android:visibility="gone" style="@style/gameBrowseButton" />
+</FrameLayout>

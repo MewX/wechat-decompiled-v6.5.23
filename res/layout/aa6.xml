@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout style="@style/NavPage"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:id="@id/co3" style="@style/MMScroll">
+        <LinearLayout android:orientation="vertical" android:paddingLeft="@dimen/gb" android:paddingRight="@dimen/gb" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="16.0dip" android:textColor="#ff686868" android:gravity="center_horizontal" android:id="@id/co5" android:paddingLeft="10.0dip" android:paddingTop="26.0dip" android:paddingRight="10.0dip" android:text="@string/ch3" style="@style/MMLineLabel" />
+            <RelativeLayout android:layout_gravity="center_horizontal" android:id="@id/cni" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <ImageView android:layout_gravity="center_horizontal" android:id="@id/cnj" android:background="@drawable/u5" android:paddingLeft="4.0dip" android:paddingTop="5.0dip" android:paddingRight="6.0dip" android:paddingBottom="5.0dip" android:layout_width="90.0dip" android:layout_height="90.0dip" android:layout_marginTop="20.0dip" android:src="@drawable/o0" />
+                <ImageView android:id="@id/cnk" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="7.0dip" android:layout_marginBottom="7.0dip" android:src="@drawable/a64" android:layout_alignRight="@id/cnj" android:layout_alignBottom="@id/cnj" />
+            </RelativeLayout>
+            <FrameLayout android:background="@drawable/fi" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" style="@style/MMLineEditText">
+                <EditText android:id="@id/co6" android:background="@null" android:paddingLeft="100.0dip" android:hint="@string/cgx" android:imeOptions="actionDone" style="@style/MMLineEditText" />
+                <TextView android:textSize="16.0dip" android:textColor="@color/bi" android:gravity="center_vertical" android:layout_gravity="center_vertical" android:background="@null" android:paddingLeft="10.0dip" android:focusable="false" android:focusableInTouchMode="false" android:clickable="false" android:text="@string/cgy" android:singleLine="false" style="@style/MMLineEditText" />
+            </FrameLayout>
+            <LinearLayout android:orientation="vertical" android:id="@id/co7" android:layout_height="fill_parent" android:layout_marginTop="20.0dip" style="@style/MMLine">
+                <FrameLayout android:id="@id/co8" android:background="@drawable/fi" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <EditText android:id="@id/co9" android:background="@null" android:paddingLeft="100.0dip" android:hint="@string/cgz" android:imeOptions="actionDone" style="@style/MMLineEditText" />
+                    <TextView android:textSize="16.0dip" android:textColor="@color/bi" android:gravity="center_vertical" android:layout_gravity="center_vertical" android:background="@null" android:paddingLeft="10.0dip" android:focusable="false" android:focusableInTouchMode="false" android:clickable="false" android:text="@string/ch_" android:singleLine="false" style="@style/MMLineEditText" />
+                    <ImageView android:layout_gravity="center|right" android:id="@id/co_" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="5.0dip" android:src="@drawable/a67" />
+                    <ProgressBar android:layout_gravity="center|right" android:id="@id/cn5" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="5.0dip" style="@style/smallCustomProgressBar" />
+                </FrameLayout>
+                <TextView android:textSize="14.0dip" android:textColor="#ff909090" android:gravity="center_horizontal" android:id="@id/coa" android:paddingLeft="10.0dip" android:paddingRight="10.0dip" android:paddingBottom="20.0dip" android:layout_marginTop="12.0dip" android:text="@string/ch8" style="@style/MMLineLabel" />
+            </LinearLayout>
+            <Button android:id="@id/ajh" android:layout_marginBottom="@dimen/ge" android:text="@string/ch0" style="@style/MMSolidGreenLargeButton" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

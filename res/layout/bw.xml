@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <FrameLayout android:id="@id/mm" android:background="@color/r5" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            <LinearLayout android:orientation="vertical" android:id="@id/mn" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        </FrameLayout>
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/mo" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <ImageView android:id="@id/mp" android:layout_width="40.0dip" android:layout_height="40.0dip" android:layout_marginTop="12.0dip" android:scaleType="fitCenter" />
+            <TextView android:textSize="@dimen/bp" android:textColor="@color/bi" android:gravity="center" android:id="@id/mq" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <com.tencent.mm.ui.widget.ThreeDotsLoadingView android:id="@id/mr" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </LinearLayout>
+    </FrameLayout>
+    <View android:id="@id/ms" android:background="@color/r5" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</LinearLayout>

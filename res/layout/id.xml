@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:paddingRight="20.0dip" style="@style/ChattingAppUIContent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/aas" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" style="@style/ChattingUIAvatarMaskFrom" layout="@layout/chatting_item_avatar_from" />
+    <TextView android:id="@id/j0" android:visibility="gone" android:layout_toRightOf="@id/aas" style="@style/ChattingUISenderText" />
+    <FrameLayout android:id="@id/acd" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toRightOf="@id/aas" android:layout_below="@id/j0">
+        <ImageView android:id="@id/acy" android:layout_width="wrap_content" android:layout_height="wrap_content" android:adjustViewBounds="true" android:maxWidth="240.0dip" />
+        <ImageView android:id="@id/ad7" android:background="@drawable/dh" android:layout_width="0.0dip" android:layout_height="0.0dip" />
+    </FrameLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_toRightOf="@id/aas" android:layout_below="@id/acd">
+        <LinearLayout android:gravity="bottom" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                <TextView android:ellipsize="end" android:id="@id/ad4" android:background="@drawable/aw" android:padding="@dimen/br" android:layout_marginLeft="0.0dip" android:text="{source}" android:singleLine="true" style="@style/ChattingItemSourceTextView" />
+            </LinearLayout>
+            <RelativeLayout android:id="@id/adk" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <TextView android:id="@id/ab3" android:background="@drawable/aw" android:visibility="gone" android:text="@string/a9i" android:singleLine="true" style="@style/ChattingItemSourceTextView" />
+                <ImageView android:id="@id/ada" android:background="@drawable/mn" android:visibility="gone" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            </RelativeLayout>
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

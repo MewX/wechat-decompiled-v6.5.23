@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:id="@id/c_l" android:background="@color/r5" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/c_m" layout="@layout/voice_title_header" />
+    <ImageView android:id="@id/c_n" android:background="@drawable/a9w" android:layout_width="@dimen/na" android:layout_height="@dimen/na" android:layout_marginTop="@dimen/gf" android:layout_below="@id/c_m" android:layout_centerHorizontal="true" />
+    <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/gf" android:layout_below="@id/c_n" android:layout_centerHorizontal="true">
+        <ProgressBar android:layout_gravity="center_vertical" android:id="@id/c_o" android:layout_width="30.0dip" android:layout_height="30.0dip" />
+        <TextView android:textSize="@dimen/bw" android:textColor="@color/bi" android:gravity="center" android:layout_gravity="center_vertical" android:id="@id/c_p" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="2.0dip" android:text="@string/dj1" />
+    </LinearLayout>
+    <TextView android:textSize="@dimen/bz" android:textColor="@color/c4" android:id="@id/c_q" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="80.0dip" android:text="@string/o6" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+</RelativeLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/r5" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="16.0dip" android:textColor="@color/c4" android:layout_gravity="left" android:id="@id/b5o" android:background="@drawable/pl" android:padding="16.0dip" android:text="@string/em" style="@style/MMSmallButton" />
+    <View android:id="@id/b5p" android:background="@color/pt" android:layout_width="1.0dip" android:layout_height="1.0dip" android:layout_centerInParent="true" />
+    <ImageView android:id="@id/b5i" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/c0" android:src="@drawable/aeo" android:layout_above="@id/b5p" android:layout_centerHorizontal="true" />
+    <TextView android:textSize="@dimen/h7" android:textColor="@color/lb" android:gravity="center" android:id="@id/b5q" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bv" android:layout_marginTop="18.0dip" android:layout_marginRight="@dimen/bv" android:text="@string/dv5" android:layout_below="@id/b5p" android:layout_centerHorizontal="true" />
+    <TextView android:textSize="@dimen/i5" android:textColor="@color/rr" android:id="@id/b5r" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="15.0dip" android:text="@string/dvh" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+</RelativeLayout>

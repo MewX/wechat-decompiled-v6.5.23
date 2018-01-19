@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge>
+    <RelativeLayout android:id="@id/b0a" android:background="@color/ft" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent"
+      xmlns:android="http://schemas.android.com/apk/res/android">
+        <RelativeLayout android:id="@id/b0b" android:background="@color/fs" android:paddingLeft="48.0dip" android:paddingRight="48.0dip" android:paddingBottom="@dimen/ge" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <ImageView android:id="@id/b0c" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="100.0dip" android:src="@drawable/ae4" android:layout_centerHorizontal="true" />
+            <TextView android:textSize="18.0dip" android:textColor="@color/r5" android:gravity="center_horizontal" android:id="@id/b0d" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/h_" android:text="@string/az2" android:layout_below="@id/b0c" android:layout_centerHorizontal="true" style="@style/MMTextView" />
+            <TextView android:textSize="18.0dip" android:textColor="@color/r5" android:gravity="left" android:id="@id/b0e" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toRightOf="@id/b0d" android:layout_alignTop="@id/b0d" style="@style/MMTextView" />
+            <Button android:textColor="@color/rn" android:id="@id/b0f" android:background="@null" android:visibility="invisible" android:layout_marginTop="40.0dip" android:text="@string/az3" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" style="@style/MMMiddleButton" />
+            <Button android:textSize="@dimen/gq" android:textColor="@color/rn" android:id="@id/ajh" android:visibility="invisible" android:text="@string/az3" android:layout_above="@id/b0f" android:layout_centerHorizontal="true" style="@style/MMlineGreenMiddleButton" />
+        </RelativeLayout>
+        <Button android:id="@id/b0g" android:visibility="gone" style="@style/FaceLeftBtn" />
+    </RelativeLayout>
+</merge>

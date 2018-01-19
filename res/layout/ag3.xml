@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/m6" android:background="@color/pt" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageView android:id="@id/a3d" android:background="@color/bi" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/b46" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_centerInParent="true" />
+        <TextView android:textSize="@dimen/g2" android:textColor="@color/l9" android:gravity="right" android:id="@id/d5r" android:padding="@dimen/gb" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="" android:layout_below="@id/b46" android:layout_alignParentRight="true" />
+        <ImageView android:id="@id/cyw" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_centerInParent="true" />
+        <TextView android:textColor="@color/r5" android:gravity="center" android:id="@id/b0d" android:padding="@dimen/gb" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/gf" android:text="@string/d5r" android:layout_alignParentBottom="true" />
+        <ImageView android:id="@id/b47" android:background="@color/e0" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="fitCenter" android:layout_centerInParent="true" />
+        <com.tencent.mm.ui.widget.MMPinProgressBtn android:id="@id/cyx" android:visibility="gone" android:layout_width="@dimen/sz" android:layout_height="@dimen/sz" android:layout_centerInParent="true" />
+        <ImageView android:id="@id/cyy" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/a9r" android:scaleType="center" android:layout_centerInParent="true" />
+        <include layout="@layout/sight_player_tip_golden_ratio" />
+    </RelativeLayout>
+</LinearLayout>

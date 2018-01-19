@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res-auto">
+    <PreferenceTitleCategory android:title="@string/cw_" />
+    <Preference android:title="@string/d2f" android:key="settings_username" android:layout="@layout/a31" />
+    <Preference android:title="@string/d23" android:key="settings_uin" android:layout="@layout/a31" />
+    <Preference android:title="@string/cyc" android:key="settings_mobile" android:layout="@layout/a31" />
+    <Preference android:title="@string/cwq" android:key="settings_email_addr" android:layout="@layout/a31" />
+    <Preference android:title="@string/cvm" android:key="settings_about_domainmail" android:layout="@layout/a31" />
+    <Preference android:title="@string/bgc" android:key="settings_facebook" android:layout="@layout/a31" />
+    <com.tencent.mm.ui.base.preference.PluginTextPreference android:key="settings_about_vusertitle" />
+    <com.tencent.mm.plugin.setting.ui.setting.SelfVuserPreference android:key="settings_about_vuserinfo" />
+    <Preference android:title="@string/alv" android:key="settings_about_vuser_about" android:layout="@layout/a31" />
+    <PreferenceTitleCategory android:title="@string/cwd" />
+    <com.tencent.mm.ui.base.preference.IconPreference android:title="@string/cxf" android:key="settings_fingerprint_title" android:layout="@layout/a31" />
+    <com.tencent.mm.ui.base.preference.IconPreference android:title="@string/d2h" android:key="settings_voiceprint_title" android:layout="@layout/a31" />
+    <com.tencent.mm.ui.base.preference.IconPreference android:title="@string/ayz" android:key="settings_facedect_title" android:layout="@layout/a31" />
+    <Preference android:title="@string/cxl" android:key="settings_independent_password" android:layout="@layout/a31" />
+    <com.tencent.mm.ui.base.preference.IconSwitchKeyValuePreference android:title="@string/cnm" android:key="settings_safe_device" android:layout="@layout/a31" />
+    <Preference android:title="@string/d1w" android:key="settings_trust_friend" android:layout="@layout/a31" />
+    <com.tencent.mm.ui.base.preference.IconSwitchKeyValuePreference android:title="@string/c93" android:key="settings_phone_security" android:layout="@layout/a31" />
+    <com.tencent.mm.ui.base.preference.IconSummaryPreference android:title="@string/d0g" android:key="settings_room_right" />
+    <Preference android:summary="@string/d0m" android:title="@string/d0l" android:key="settings_security_center" android:layout="@layout/a4v" />
+    <Preference android:title="@string/cun" android:key="settings_delete_account" android:layout="@layout/a31" />
+</PreferenceScreen>

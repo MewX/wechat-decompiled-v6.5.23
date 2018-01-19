@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.tencent.mm.plugin.game.ui.GameInfoView android:id="@id/bbb" android:background="@color/r5" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <RelativeLayout android:gravity="center_vertical" android:id="@id/bbc" android:background="@drawable/h0" android:layout_width="wrap_content" android:layout_height="@dimen/fp" android:layout_toLeftOf="@id/bbd" android:layout_alignParentLeft="true">
+            <ImageView android:id="@id/le" android:layout_width="@dimen/g1" android:layout_height="@dimen/g1" android:layout_marginLeft="@dimen/c0" android:layout_marginRight="@dimen/gs" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+            <LinearLayout android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="@dimen/fp" android:layout_toRightOf="@id/le" android:layout_centerVertical="true">
+                <LinearLayout android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                    <TextView android:textSize="@dimen/fg" android:textColor="@color/bi" android:ellipsize="end" android:id="@id/bbe" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/i1" android:singleLine="true" />
+                </LinearLayout>
+                <ImageView android:id="@id/bbf" android:visibility="gone" android:layout_width="@dimen/ff" android:layout_height="@dimen/ff" />
+            </LinearLayout>
+        </RelativeLayout>
+        <LinearLayout android:orientation="horizontal" android:id="@id/bbd" android:layout_width="wrap_content" android:layout_height="@dimen/fp" android:layout_alignParentRight="true">
+            <FrameLayout android:id="@id/bbg" android:background="@drawable/h0" android:visibility="gone" android:layout_width="@dimen/fp" android:layout_height="fill_parent">
+                <ImageView android:id="@id/bbh" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+                <TextView android:textSize="11.0dip" android:textStyle="bold" android:textColor="@color/r5" android:gravity="center" android:layout_gravity="center|right|top" android:id="@id/bbi" android:background="@drawable/q1" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/i1" android:layout_marginRight="@dimen/i1" />
+                <ImageView android:layout_gravity="center_vertical" android:layout_width="1.0dip" android:layout_height="@dimen/fo" android:src="@color/gr" />
+            </FrameLayout>
+            <FrameLayout android:id="@id/bbj" android:background="@drawable/h0" android:visibility="gone" android:layout_width="@dimen/fp" android:layout_height="fill_parent">
+                <ImageView android:id="@id/bbk" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+                <ImageView android:layout_gravity="center|right|top" android:id="@id/bbl" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/i1" android:layout_marginRight="@dimen/i1" android:src="@drawable/q3" />
+                <ImageView android:layout_gravity="center_vertical" android:layout_width="1.0dip" android:layout_height="@dimen/fo" android:src="@color/gr" />
+            </FrameLayout>
+            <ImageView android:layout_gravity="center_vertical" android:id="@id/bbm" android:layout_width="1.0dip" android:layout_height="@dimen/fo" android:src="@color/gr" />
+            <ImageView android:id="@id/bbn" android:background="@drawable/h0" android:visibility="gone" android:layout_width="@dimen/fp" android:layout_height="fill_parent" />
+        </LinearLayout>
+    </com.tencent.mm.plugin.game.ui.GameInfoView>
+</LinearLayout>

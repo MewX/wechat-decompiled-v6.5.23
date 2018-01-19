@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:paddingTop="@dimen/i1" android:paddingBottom="@dimen/i1" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/fy" android:visibility="gone" android:layout_width="@dimen/en" android:layout_height="wrap_content" android:layout_marginRight="@dimen/gk" android:layout_alignParentLeft="true" android:layout_centerVertical="true" style="@style/MMFontPreferenceLarge" />
+    <TextView android:id="@id/c4m" android:visibility="gone" android:drawableLeft="@raw/card_photoicon" android:drawablePadding="@dimen/i4" android:layout_toRightOf="@id/fy" style="@style/MMFontPreferenceSummary" />
+    <TextView android:textColor="@color/j0" android:gravity="center|left" android:id="@id/c4n" android:visibility="gone" android:layout_marginTop="@dimen/i1" android:layout_toRightOf="@id/fy" android:layout_below="@id/c4m" style="@style/MMFontPreferenceSummary" />
+</RelativeLayout>

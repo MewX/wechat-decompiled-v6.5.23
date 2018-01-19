@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:background="@color/r5" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/dpi" android:layout_width="@dimen/gd" android:layout_height="@dimen/gd" android:layout_marginTop="@dimen/g5" android:scaleType="centerCrop" android:layout_centerHorizontal="true" />
+    <TextView android:ellipsize="end" android:id="@id/dpj" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/ge" android:layout_marginTop="@dimen/h6" android:layout_marginRight="@dimen/ge" android:layout_marginBottom="@dimen/gk" android:maxLines="1" android:layout_below="@id/dpi" android:layout_centerHorizontal="true" style="@style/MMTextView" />
+    <TextView android:id="@id/dpk" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/dpj" android:layout_centerHorizontal="true" style="@style/MMBriefText" />
+    <Button android:id="@id/dpl" android:layout_marginLeft="@dimen/ge" android:layout_marginTop="@dimen/gf" android:layout_marginRight="@dimen/ge" android:layout_marginBottom="@dimen/bv" android:minWidth="220.0dip" android:text="@string/e70" android:layout_below="@id/dpk" android:layout_centerHorizontal="true" style="@style/MMSolidGreenLargeButton" />
+    <TextView android:id="@id/dpm" android:visibility="gone" android:layout_width="wrap_content" android:layout_marginTop="@dimen/gf" android:text="@string/e78" android:layout_below="@id/dpk" android:layout_centerHorizontal="true" style="@style/MMBriefText" />
+    <TextView android:textSize="@dimen/h7" android:textColor="@color/rr" android:id="@id/dpn" android:paddingLeft="@dimen/i4" android:paddingRight="@dimen/i4" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/h6" android:text="@string/e6y" android:layout_below="@id/dpm" android:layout_centerHorizontal="true" />
+</RelativeLayout>

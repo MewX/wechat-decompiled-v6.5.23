@@ -1,0 +1,93 @@
+.class public final Lcom/tencent/mm/plugin/safedevice/a;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements Lcom/tencent/mm/pluginsdk/o;
+
+
+# static fields
+.field public static hql:Lcom/tencent/mm/pluginsdk/m;
+
+.field private static hqm:Lcom/tencent/mm/pluginsdk/l;
+
+
+# direct methods
+.method public constructor <init>()V
+    .locals 4
+
+    .prologue
+    const-wide v2, 0xbb1f0000000L
+
+    const v0, 0x1763e
+
+    .line 11
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    invoke-static {v2, v3, v0}, Lcom/tencent/gmtrace/GMTrace;->i(JI)V
+
+    invoke-static {v2, v3, v0}, Lcom/tencent/gmtrace/GMTrace;->o(JI)V
+
+    return-void
+.end method
+
+.method public static a(Landroid/content/Context;Landroid/content/Intent;Landroid/content/Intent;)V
+    .locals 4
+
+    .prologue
+    const-wide v2, 0xbb208000000L
+
+    const v1, 0x17641
+
+    invoke-static {v2, v3, v1}, Lcom/tencent/gmtrace/GMTrace;->i(JI)V
+
+    .line 30
+    sget-object v0, Lcom/tencent/mm/plugin/safedevice/a;->hql:Lcom/tencent/mm/pluginsdk/m;
+
+    invoke-interface {v0, p0, p1, p2}, Lcom/tencent/mm/pluginsdk/m;->a(Landroid/content/Context;Landroid/content/Intent;Landroid/content/Intent;)V
+
+    .line 31
+    invoke-static {v2, v3, v1}, Lcom/tencent/gmtrace/GMTrace;->o(JI)V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final a(Lcom/tencent/mm/pluginsdk/l;)V
+    .locals 4
+
+    .prologue
+    const-wide v2, 0xbb200000000L
+
+    const v0, 0x17640
+
+    invoke-static {v2, v3, v0}, Lcom/tencent/gmtrace/GMTrace;->i(JI)V
+
+    .line 22
+    sput-object p1, Lcom/tencent/mm/plugin/safedevice/a;->hqm:Lcom/tencent/mm/pluginsdk/l;
+
+    .line 23
+    invoke-static {v2, v3, v0}, Lcom/tencent/gmtrace/GMTrace;->o(JI)V
+
+    return-void
+.end method
+
+.method public final a(Lcom/tencent/mm/pluginsdk/m;)V
+    .locals 4
+
+    .prologue
+    const-wide v2, 0xbb1f8000000L
+
+    const v0, 0x1763f
+
+    invoke-static {v2, v3, v0}, Lcom/tencent/gmtrace/GMTrace;->i(JI)V
+
+    .line 17
+    sput-object p1, Lcom/tencent/mm/plugin/safedevice/a;->hql:Lcom/tencent/mm/pluginsdk/m;
+
+    .line 18
+    invoke-static {v2, v3, v0}, Lcom/tencent/gmtrace/GMTrace;->o(JI)V
+
+    return-void
+.end method

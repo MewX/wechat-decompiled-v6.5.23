@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.tencent.mm.plugin.facedetect.views.FaceDetectCameraView android:id="@id/d81" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <View android:id="@id/d82" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <com.tencent.mm.plugin.facedetect.views.FaceDetectDecorView android:id="@id/d83" android:background="@color/pt" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</FrameLayout>

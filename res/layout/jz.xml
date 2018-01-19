@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:background="@drawable/aae" android:layout_width="fill_parent" android:layout_height="@dimen/h5" android:minHeight="@dimen/h5"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <TextView android:textSize="@dimen/h7" android:textColor="@color/bi" android:id="@id/agj" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/i1" android:text="@string/abv" />
+        <TextView android:textSize="@dimen/h7" android:textColor="@color/dq" android:id="@id/agk" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/i1" android:text="@string/abu" />
+    </LinearLayout>
+    <ImageView android:layout_gravity="center|right" android:id="@id/agl" android:padding="8.0dip" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@raw/list_deletetext_icon" />
+</LinearLayout>

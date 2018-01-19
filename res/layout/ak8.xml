@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout style="@style/NavPage"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:wallet="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:id="@id/dhl" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <LinearLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/gb">
+            <ImageView android:layout_gravity="left" android:id="@id/dhm" android:background="@raw/actionbar_icon_close_black" android:layout_width="32.0dip" android:layout_height="32.0dip" android:layout_marginLeft="@dimen/c0" android:layout_marginTop="@dimen/ge" />
+        </LinearLayout>
+        <TextView android:textSize="@dimen/g3" android:textColor="#ff353535" android:gravity="center_horizontal" android:id="@id/cce" android:layout_marginLeft="@dimen/gb" android:layout_marginTop="44.0dip" android:layout_marginRight="@dimen/gb" android:text="{}" style="@style/WalletInputTips" />
+        <TextView android:textSize="@dimen/g0" android:textColor="@color/bi" android:gravity="center_horizontal" android:id="@id/dhn" android:layout_marginLeft="69.0dip" android:layout_marginTop="18.0dip" android:layout_marginRight="69.0dip" android:layout_marginBottom="69.0dip" android:text="{}" style="@style/WalletInputTips" />
+    </LinearLayout>
+    <TextView android:gravity="center_horizontal" android:id="@id/dds" android:layout_marginLeft="@dimen/gb" android:layout_marginTop="@dimen/ge" android:layout_marginRight="@dimen/gb" android:layout_marginBottom="@dimen/gb" android:text="@string/dsa" style="@style/WalletInputTips" />
+    <com.tencent.mm.wallet_core.ui.formview.EditHintPasswdView android:id="@id/cck" wallet:format="dy" style="@style/MMWalletPwdEt" />
+    <include layout="@layout/cft_keyboard_layout" />
+</LinearLayout>

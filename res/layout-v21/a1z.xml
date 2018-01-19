@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:background="@drawable/f0" android:paddingLeft="@dimen/hr" android:paddingTop="@dimen/c0" android:paddingRight="@dimen/hr" android:paddingBottom="@dimen/c0" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="top" android:id="@id/jz" android:layout_width="@dimen/cs" android:layout_height="@dimen/cs" android:layout_marginTop="@dimen/i6" android:layout_marginRight="@dimen/hr" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:paddingLeft="@dimen/i4" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="@dimen/t5" android:textColor="@color/mk" android:id="@id/aoj" android:layout_width="0.0dip" android:maxWidth="140.0dip" android:layout_weight="1.0" style="@style/MMFontTitleInList" />
+            <TextView android:textSize="@dimen/t5" android:textColor="@color/mk" android:gravity="right" android:layout_gravity="right" android:id="@id/aok" android:paddingRight="4.0dip" android:minWidth="65.0dip" style="@style/MMFontTimeInList" />
+        </LinearLayout>
+        <TextView android:textSize="@dimen/t4" android:textColor="@color/bi" android:gravity="center|left" android:id="@id/aku" android:paddingRight="6.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="3" android:singleLine="false" android:lineSpacingExtra="2.0dip" android:letterSpacing="0.1" style="@style/MMFontTipInList" />
+    </LinearLayout>
+</LinearLayout>

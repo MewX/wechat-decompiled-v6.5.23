@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:id="@id/b9v" android:layout_width="fill_parent" android:layout_height="60.0dip" android:layout_marginLeft="30.0dip" android:layout_marginRight="30.0dip" android:weightSum="3.0">
+        <TextView android:textSize="@dimen/g2" android:textColor="#ff45c01a" android:gravity="center" android:layout_gravity="center" android:id="@id/b9w" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="{textview_1}" android:layout_weight="1.0" android:lineSpacingExtra="@dimen/hk" />
+        <View android:layout_gravity="center" android:id="@id/b8t" android:background="#ffdadada" android:visibility="gone" android:layout_width="1.0px" android:layout_height="fill_parent" />
+        <TextView android:textSize="@dimen/g2" android:textColor="#ff45c01a" android:gravity="center" android:layout_gravity="center" android:id="@id/b9x" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="{textview_2}" android:layout_weight="1.0" android:lineSpacingExtra="@dimen/hk" />
+        <View android:layout_gravity="center" android:id="@id/b8v" android:background="#ffdadada" android:visibility="gone" android:layout_width="1.0px" android:layout_height="fill_parent" />
+        <TextView android:textSize="@dimen/g2" android:textColor="#ff45c01a" android:gravity="center" android:layout_gravity="center" android:id="@id/b9y" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="{textview_3}" android:layout_weight="1.0" android:lineSpacingExtra="@dimen/hk" />
+    </LinearLayout>
+</LinearLayout>

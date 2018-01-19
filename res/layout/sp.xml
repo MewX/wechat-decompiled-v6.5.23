@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:paddingBottom="@dimen/gf" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minWidth="@dimen/gu" android:minHeight="@dimen/gt" style="@style/PopupBgWithoutShadow"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/b5c" android:visibility="gone" android:layout_width="30.0dip" android:layout_height="30.0dip" android:layout_marginLeft="@dimen/br" android:layout_marginTop="@dimen/br" android:src="@drawable/i5" android:scaleType="fitXY" />
+    <ImageView android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/ge" android:layout_marginBottom="@dimen/ge" android:src="@drawable/aep" />
+    <TextView android:textSize="@dimen/g2" android:textColor="@color/bi" android:gravity="center" android:id="@id/hn" android:paddingLeft="@dimen/h6" android:paddingRight="@dimen/h6" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/h6" android:text="@string/b69" />
+    <TextView android:textSize="@dimen/g2" android:textColor="@color/mo" android:gravity="center" android:id="@id/b5d" android:paddingLeft="@dimen/h6" android:paddingRight="@dimen/h6" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/h6" android:text="@string/b6f" />
+</LinearLayout>

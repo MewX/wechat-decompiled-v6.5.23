@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:baselineAligned="false" android:minHeight="@dimen/i0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center|left" android:id="@id/in" android:background="@drawable/hk" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/h6" android:layout_marginRight="@dimen/h6" android:minHeight="@dimen/i0" android:layout_weight="1.0">
+        <TextView android:textColor="@color/if" android:id="@android:id/title" android:paddingLeft="@dimen/gs" android:layout_width="0.0dip" android:layout_height="wrap_content" android:singleLine="true" android:layout_weight="1.0" style="@style/MMFontPreferenceLarge" />
+        <TextView android:textSize="@dimen/g2" android:textColor="@color/py" android:id="@android:id/summary" android:paddingTop="@dimen/i1" android:paddingRight="@dimen/gs" android:paddingBottom="@dimen/i1" android:maxEms="12" android:singleLine="true" style="@style/MMFontPreferenceSummary" />
+    </LinearLayout>
+    <View android:background="@drawable/pz" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginLeft="@dimen/h6" android:layout_marginRight="@dimen/h6" />
+</LinearLayout>

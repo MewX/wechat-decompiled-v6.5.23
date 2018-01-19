@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res-auto">
+    <PreferenceTitleCategory android:title="@string/cw2" />
+    <CheckBoxPreference android:title="@string/cyt" android:key="settings_need_verify" android:layout="@layout/a31" />
+    <CheckBoxPreference android:summary="@string/d08" android:title="@string/ajp" android:key="settings_recommend_mobilefriends_to_me" />
+    <CheckBoxPreference android:summary="@string/d07" android:title="@string/cxa" android:key="settings_find_google_contact" />
+    <Preference android:title="@string/cw0" android:key="settings_add_me_way" android:layout="@layout/a31" />
+    <Preference android:title="@string/d03" android:key="settings_about_blacklist" android:layout="@layout/a31" />
+    <Preference android:title="@string/d2_" android:key="settings_unfamiliar_contact" android:layout="@layout/a31" />
+    <PreferenceTitleCategory android:title="@string/cw3" android:key="settings_add_friends_timeline_tip" />
+    <Preference android:title="@string/d_8" android:key="timline_outside_permiss" />
+    <Preference android:title="@string/d7_" android:key="timeline_black_permiss" />
+    <Preference android:title="@string/d01" android:key="edit_timeline_group" />
+    <CheckBoxPreference android:title="@string/ah9" android:key="timeline_stranger_show" android:layout="@layout/a31" />
+    <IconPreference android:title="@string/ah5" android:key="timeline_recent_show_select" />
+    <CheckBoxPreference android:summary="@string/d1_" android:title="@string/d02" android:key="timeline_open_entrance" android:layout="@layout/a31" />
+    <CheckBoxPreference android:summary="@string/d19" android:title="@string/d18" android:key="settings_sns_notify" android:dependency="settings_new_sns_notify" android:defaultValue="true" />
+    <PreferenceCategory />
+    <Preference android:key="settings_privacy_agreements" android:layout="@layout/a4h" />
+</PreferenceScreen>

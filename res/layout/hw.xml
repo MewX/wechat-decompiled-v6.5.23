@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:paddingLeft="@dimen/gb" android:paddingRight="@dimen/gb" android:focusable="true" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:orientation="vertical" android:id="@id/aao" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/gb">
+        <RelativeLayout android:orientation="vertical" android:id="@id/aap" android:layout_width="fill_parent" android:layout_height="180.0dip">
+            <ImageView android:id="@id/n4" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" />
+            <LinearLayout android:background="@drawable/acs" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+                <LinearLayout android:gravity="center|right" android:layout_gravity="bottom" android:paddingRight="@dimen/gb" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/br" android:minHeight="20.0dip">
+                    <ImageView android:layout_gravity="center_vertical" android:background="@drawable/acw" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/gk" android:scaleType="centerCrop" />
+                    <TextView android:textSize="@dimen/g2" android:textColor="@color/r5" android:layout_gravity="center_vertical" android:id="@id/a6i" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="00:00" />
+                </LinearLayout>
+            </LinearLayout>
+        </RelativeLayout>
+        <TextView android:textSize="@dimen/h7" android:textColor="@color/lb" android:ellipsize="end" android:id="@id/fy" android:background="@drawable/acv" android:paddingLeft="@dimen/gb" android:paddingTop="@dimen/h6" android:paddingRight="@dimen/gb" android:paddingBottom="@dimen/h6" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/eaw" android:maxLines="3" android:layout_below="@id/aap" />
+        <ImageView android:orientation="vertical" android:background="@drawable/ef" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignTop="@id/aap" android:layout_alignBottom="@id/fy" />
+    </RelativeLayout>
+</LinearLayout>

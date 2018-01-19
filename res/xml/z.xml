@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res-auto">
+    <PreferenceSmallCategory />
+    <com.tencent.mm.pluginsdk.ui.preference.NormalUserHeaderPreference android:key="contact_info_header_normal" android:layout="@layout/ll" />
+    <PreferenceSmallCategory />
+    <com.tencent.mm.ui.base.preference.KeyValuePreference android:title="@string/agr" android:key="contact_info_district" android:layout="@layout/a31" />
+    <com.tencent.mm.ui.base.preference.KeyValuePreference android:title="@string/aki" android:key="contact_info_signature" android:layout="@layout/a31" />
+    <com.tencent.mm.ui.base.preference.KeyValuePreference android:title="@string/alh" android:key="contact_info_source" android:layout="@layout/a31" />
+    <com.tencent.mm.pluginsdk.ui.preference.SnsPreference android:title="@string/akj" android:key="contact_info_sns" android:layout="@layout/a31" />
+    <com.tencent.mm.ui.base.preference.KeyValuePreference android:title="@string/ahm" android:key="contact_info_invite_source" android:layout="@layout/a31" />
+    <com.tencent.mm.plugin.profile.ui.ContactMoreInfoPreference android:title="@string/ain" android:key="contact_info_more" android:layout="@layout/a31" />
+    <com.tencent.mm.plugin.profile.ui.ContactSocialInfoPreference android:title="@string/akq" android:key="contact_info_social" android:layout="@layout/a31" />
+    <com.tencent.mm.plugin.profile.ui.FriendPreference android:title="@string/bgc" android:key="contact_info_facebook" android:layout="@layout/a31" />
+    <com.tencent.mm.ui.base.preference.KeyValuePreference android:title="@string/alu" android:key="contact_info_verifyuser" android:layout="@layout/a31" />
+    <PreferenceSmallCategory />
+    <com.tencent.mm.plugin.profile.ui.NormalUserFooterPreference android:key="contact_info_footer_normal" android:layout="@layout/li" />
+    <PreferenceSmallCategory />
+    <com.tencent.mm.ui.base.preference.TextPreference android:key="contact_info_hint" />
+</PreferenceScreen>

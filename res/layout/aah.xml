@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:focusable="false" android:clickable="false" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:gravity="center_horizontal" android:id="@id/cr6" android:src="@drawable/y3" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" style="@style/RoomInfoItemAvatar" />
+    <ImageView android:gravity="center" android:id="@id/cr7" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/b2" android:layout_alignLeft="@id/cr6" android:layout_alignTop="@id/cr6" />
+    <ImageView android:id="@id/cr8" android:visibility="gone" android:layout_width="25.0dip" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" android:layout_alignRight="@id/cr6" android:layout_alignBottom="@id/cr6" />
+    <ImageView android:id="@id/ah2" android:visibility="gone" android:layout_width="26.0dip" android:layout_height="26.0dip" android:layout_marginTop="2.0dip" android:src="@drawable/a56" android:layout_alignRight="@id/cr6" android:layout_alignBottom="@id/cr6" />
+    <TextView android:id="@id/cr9" android:visibility="gone" android:text="name" android:layout_below="@id/cr6" android:layout_centerHorizontal="true" style="@style/RoomInfoItemName" />
+    <TextView android:id="@id/cr_" android:paddingTop="@dimen/br" android:visibility="gone" android:layout_below="@id/cr6" android:layout_centerHorizontal="true" style="@style/RoomInfoItemName" />
+</RelativeLayout>

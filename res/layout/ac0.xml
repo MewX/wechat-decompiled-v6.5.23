@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/l3" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/cu_" android:background="@drawable/aff" android:paddingLeft="@dimen/c0" android:paddingTop="@dimen/i1" android:paddingRight="@dimen/c0" android:paddingBottom="@dimen/i1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="2.0dip">
+        <ImageView android:id="@id/cua" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@raw/searchbar_icon" />
+        <com.tencent.mm.ui.widget.MMEditText android:textSize="@dimen/h7" android:textColor="@color/lb" android:textColorHint="@color/ic" android:gravity="center_vertical" android:id="@id/cub" android:background="@null" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/br" android:minHeight="@dimen/g6" android:hint="@string/o_" android:singleLine="true" android:layout_weight="1.0" />
+    </LinearLayout>
+    <RelativeLayout android:id="@id/zb" android:layout_width="fill_parent" android:layout_height="fill_parent" style="@style/NavPage">
+        <ListView android:id="@id/cu4" android:background="@color/l3" android:layout_width="fill_parent" android:layout_height="fill_parent" style="@style/MMList" />
+        <com.tencent.mm.plugin.chatroom.ui.SelectMemberScrollBar android:id="@id/cuc" android:layout_width="@dimen/an" android:layout_height="fill_parent" android:layout_alignParentRight="true" />
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/cu5" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <TextView android:textSize="15.0dip" android:textColor="@color/ai" android:gravity="center" android:id="@id/cu6" android:layout_width="fill_parent" android:layout_height="0.0dip" android:text="@string/bko" android:layout_weight="0.5" />
+            <View android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="0.5" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/cud" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="200.0dip">
+            <ProgressBar android:padding="6.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/smallCustomProgressBar" />
+            <TextView android:textSize="15.0dip" android:textColor="@color/ai" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/byl" />
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

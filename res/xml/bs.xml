@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res-auto">
+    <PreferenceSmallCategory android:key="settings_tag_name_category" />
+    <Preference android:title="@string/dab" android:key="settings_tag_name" android:layout="@layout/a31" />
+    <PreferenceTitleCategory android:title="@string/dad" android:key="outside" />
+    <PreferenceTitleCategory android:title="@string/dac" android:key="black" />
+    <PreferenceTitleCategory android:title="@string/daa" android:key="group" />
+    <com.tencent.mm.pluginsdk.ui.applet.ContactListExpandPreference android:key="roominfo_contact_anchor" />
+    <PreferenceSmallCategory android:key="delete_tag_name_category" />
+    <Preference android:title="@string/cuk" android:key="delete_tag_name" android:layout="@layout/zo" />
+    <PreferenceSmallCategory />
+</PreferenceScreen>

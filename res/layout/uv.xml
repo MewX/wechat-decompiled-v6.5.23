@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.tencent.mm.plugin.game.ui.GameInstalledView android:orientation="vertical" android:id="@id/bbs" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:text="@string/bcx" style="@style/MMGameCenterSectionTitle" />
+        <com.tencent.mm.plugin.game.ui.BouncyHScrollView android:id="@id/bbt" android:background="@color/r5" android:paddingLeft="@dimen/h6" android:paddingTop="@dimen/h6" android:paddingRight="@dimen/h6" android:scrollbars="none" android:fadingEdge="none" android:layout_width="fill_parent" android:layout_height="wrap_content" android:fillViewport="false" android:overScrollMode="never">
+            <LinearLayout android:orientation="horizontal" android:id="@id/bbu" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        </com.tencent.mm.plugin.game.ui.BouncyHScrollView>
+    </com.tencent.mm.plugin.game.ui.GameInstalledView>
+</LinearLayout>
